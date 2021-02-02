@@ -4031,6 +4031,28 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_customer001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_customer001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_customer002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_customer002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "articles/intrastat/images/intrastat_eval001.png",
       "output": {
         "resource": {
@@ -4614,6 +4636,28 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_tariff001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_tariff001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_tariff002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_tariff002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "articles/intrastat/images/intrastat_template001.png",
       "output": {
         "resource": {
@@ -4687,7 +4731,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/usage_scenarios.html",
-          "hash": "foTlRs1cKyMuTucQ4Cczdw=="
+          "hash": "bYbF6ge0fNhcDkGiYY74yg=="
         }
       },
       "is_incremental": false,
