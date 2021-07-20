@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/_new_usage_scenarios.html",
-          "hash": "s0bFO7ldlpkjiH98Iye32g=="
+          "hash": "CsTJL6oftqCr5kFoPrKJzzVT3rbRfAlpGL2VTNVHefY="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/_old_usage_scenarios.html",
-          "hash": "XDzvsUN20D7bncgSBtVQ8w=="
+          "hash": "MAcMhcy0Z3CwYjqvsLp6c5VexuuPfqkd7YUdFGTvRfM="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/base_and_invoices.html",
-          "hash": "Xgg1LuTevLFJN2La0+LTpA=="
+          "hash": "us8CUzCUNiagwDyTz85DdSNCx5Xl/qKj9hek6JZ5ufE="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/faq.html",
-          "hash": "Q5ZRJwvte3VwEx5UM3CuDA=="
+          "hash": "HfDJqhfsmWp9HnxB4+E2BMZ5+Ns6EXzxG4KQIhQRanU="
         }
       },
       "is_incremental": false,
@@ -2860,7 +2860,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/overview.html",
-          "hash": "8t5Kp4xMVnTwRYmzy4Boig=="
+          "hash": "50E6/egf2/lJPgJwvhEEv/2xy/9g+NWSu6WZyJqyY8Q="
         }
       },
       "is_incremental": false,
@@ -2872,19 +2872,22 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/toc.html",
-          "hash": "vMODZsIbdVVe3VWTBycluA=="
+          "hash": "Zf5dPB/UCjlVDxfCRurqU7Lz/nQpuGYnMfmyTdDfFkE="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "articles/base_and_invoices/usage_scenarios.md",
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/usage_scenarios.html",
-          "hash": "0d9+mqZ2TyFv9ktSK103mA=="
+          "hash": "rwVY3KRJcMzmY/Xyp75wuECSSZq1pkm2VrtvOMx/h9w="
         }
       },
       "is_incremental": false,
@@ -2896,7 +2899,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/cash_management.html",
-          "hash": "fi6/pJ1lBiRqEVhikxxV8Q=="
+          "hash": "RF7ipXQea0fPu5xb3vbWBR4MD2T7jatuIZJuSpV2WMg="
         }
       },
       "is_incremental": false,
@@ -2908,7 +2911,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/faq.html",
-          "hash": "Nk6EAg+hZl9nqUp39Ny8UQ=="
+          "hash": "NL9FHnTv6H1i/HP6fQvxzah6dC9O8RuoYm5+uURWLUg="
         }
       },
       "is_incremental": false,
@@ -3943,7 +3946,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/overview.html",
-          "hash": "h8PrvLdUygWPUqwx1kiLTA=="
+          "hash": "e3jppN6OJ4tPx6eYT7RQOKRnMur+0Hs0Klk1JmEuzfs="
         }
       },
       "is_incremental": false,
@@ -3955,7 +3958,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/toc.html",
-          "hash": "v15LaQ/T1hE6Gx0lc0ZOSA=="
+          "hash": "mzbeBTIhygfcAxVrurOhDsm2KUU7nnRAz7xBkQmkugE="
         }
       },
       "is_incremental": false,
@@ -3967,7 +3970,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/usage_scenarios.html",
-          "hash": "fQ2UWhjp8ThmGoRiB0PIRA=="
+          "hash": "aX2Gl2W8Qodal9ASHKjyU1qzaH+d3ZDI8lq8omVAUFg="
         }
       },
       "is_incremental": false,
@@ -3979,7 +3982,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/faq.html",
-          "hash": "Faz2s5iZWlSnKFf6uVAXYg=="
+          "hash": "8lg7eQxWDzXXaQQTJ4l7yt/Q33piok4p2ulx8+zkkGI="
         }
       },
       "is_incremental": false,
@@ -4695,7 +4698,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/intrastat.html",
-          "hash": "Q8MwgpPhryNaDcuvDt7bIQ=="
+          "hash": "o08UuBWm/EMewPPiYMPm/4F3kAByyQ8Z9BT1H+Qx6xw="
         }
       },
       "is_incremental": false,
@@ -4707,7 +4710,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/overview.html",
-          "hash": "dCeStKHMmZZ1poL7WJ7c0w=="
+          "hash": "0+/reo7+kFPgwoZ3qn92Sk1LyIi3gg9GczY3F8ElS4Y="
         }
       },
       "is_incremental": false,
@@ -4719,7 +4722,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/toc.html",
-          "hash": "oEYd0L77Jtc4Rz2sCMdmEg=="
+          "hash": "HLUnQErgpCXk0egoQTwIRcPYLf3/8ob2REnHqm+NPHo="
         }
       },
       "is_incremental": false,
@@ -4731,7 +4734,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/usage_scenarios.html",
-          "hash": "bYbF6ge0fNhcDkGiYY74yg=="
+          "hash": "L4sDp5MMqRcaYy14Zz3FI/sHrgampO/opD8NZa+XuGs="
         }
       },
       "is_incremental": false,
@@ -4743,7 +4746,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/faq.html",
-          "hash": "cDVu71sew169y/P4aJXc5w=="
+          "hash": "qx5WxjJrYlhVvhHwQuGQQ2FYhzxq8zH+htHYz0WuySw="
         }
       },
       "is_incremental": false,
@@ -4909,7 +4912,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/latvian_language.html",
-          "hash": "ryDOvqsyW+lm17WLkgfJww=="
+          "hash": "EvP5CQXSO24QZhZNyGhHA9iVqWp6o2UMHUaCC18cOpQ="
         }
       },
       "is_incremental": false,
@@ -4921,7 +4924,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/overview.html",
-          "hash": "9IdRRET7DNURN9Fq2irMNA=="
+          "hash": "QmLRU9slBlTj+5kKHd2p/ikU5mOf1qhdcObps8CtWQc="
         }
       },
       "is_incremental": false,
@@ -4933,7 +4936,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/promo.html",
-          "hash": "as3K0Y8Cf+uuGO7j2S7WFA=="
+          "hash": "BxJQH3LSaRV4QlYoj2vxqPS4G11ukwvHs3Tn83ZYrp0="
         }
       },
       "is_incremental": false,
@@ -4945,7 +4948,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/toc.html",
-          "hash": "xsWaWjErUBhdqPdlCq3sCw=="
+          "hash": "YGfm+qvGlryEKrdHrjbyBQDYVIfl9o/KzL9Gsy2MAK4="
         }
       },
       "is_incremental": false,
@@ -4957,7 +4960,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/usage_scenarios.html",
-          "hash": "FdY7zlQFpZZ17bcDa6Q1xA=="
+          "hash": "s9mBIIRwNzqWOd1TzBrM8u76CprZ0gu4LQKwuWExavg="
         }
       },
       "is_incremental": false,
@@ -4969,7 +4972,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/support/customer_terms.html",
-          "hash": "vnxqdaYUeBmG/D3LHupNWQ=="
+          "hash": "3mbuVXYQw6ZPBQlO2sUkyQm6Y+GN53vh21XyyfU/p4w="
         }
       },
       "is_incremental": false,
@@ -4981,7 +4984,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/support/privacy_statement.html",
-          "hash": "0zahTlpT496IZq1LAY8MbA=="
+          "hash": "jXGJqNzEj/4PjAT5l6UKrKZgRyOlIlJnk5XG3U0HsBk="
         }
       },
       "is_incremental": false,
@@ -4993,7 +4996,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/support/toc.html",
-          "hash": "fVdnuMGfSupkEm8hUcwrag=="
+          "hash": "7GG2gOTzwXty9M66WzjUsGNLiv3Kv0mJ5P7fk0CQ/yc="
         }
       },
       "is_incremental": false,
@@ -5005,7 +5008,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/faq.html",
-          "hash": "FCApNuuv4/Sk/PwyECg8rQ=="
+          "hash": "YLRA+FEExKJwZThSi8cVKIZ0GIpOOOIYeq/qSygyL8g="
         }
       },
       "is_incremental": false,
@@ -6062,7 +6065,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/overview.html",
-          "hash": "N/3XV2eGwennVktCxNzfmg=="
+          "hash": "1Jf8AgkpdDL+g0ouVZ9MmPJ2nH4ndYosvqK+Eqlq4sQ="
         }
       },
       "is_incremental": false,
@@ -6074,7 +6077,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/promo.html",
-          "hash": "P6dxect2bMxTy/yaTTq2wA=="
+          "hash": "m+31ZvchS6zgK2pOMgYvBg53S5UmMOVzsKenh12Yg6c="
         }
       },
       "is_incremental": false,
@@ -6086,7 +6089,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/toc.html",
-          "hash": "QSwqSia+R+zjBtAjsySP0w=="
+          "hash": "eSz1c0eNJEjMDqbXnspDj2P8AOQkWR+96YotQ4/J8hA="
         }
       },
       "is_incremental": false,
@@ -6098,7 +6101,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/usage_scenarios.html",
-          "hash": "1AhcJJajUvMoKxEMUrGq/A=="
+          "hash": "e8On0/RzNQ2U88nLQgj9Exuvp5iXD36W15fhQLpA8m8="
         }
       },
       "is_incremental": false,
@@ -6110,7 +6113,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/vat.html",
-          "hash": "LNe4XPkOzmUIqxYJNJIRRA=="
+          "hash": "SM48P9PxdhmZlP2u73Y/PJa0h9EYqy286P4LQ3CpjXs="
         }
       },
       "is_incremental": false,
@@ -6144,7 +6147,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "W56QODPPyvVtRDkeG+V6kg=="
+          "hash": "T8YY4t+pZGCg0ea+5rMf1vEffVlyiefmK9+l/sm8ckI="
         }
       },
       "is_incremental": false,
@@ -6156,7 +6159,7 @@
       "output": {
         ".html": {
           "relative_path": "readme.html",
-          "hash": "pHlfl3ypRQW3dDu5s8tZ4g=="
+          "hash": "fdWcKPL1/puN7NZzRelcZqrUCY/DTMh+1dX0ccxdP4k="
         }
       },
       "is_incremental": false,
@@ -6168,7 +6171,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "G5kBae4zHz0DmxObOz94Rw=="
+          "hash": "/3qujmK1fqJ0D81+90RAxIL0HCt0g/WqJdEBrYfT5Ak="
         }
       },
       "is_incremental": false,
