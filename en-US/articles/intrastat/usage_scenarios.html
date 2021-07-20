@@ -98,26 +98,6 @@ Prepare printouts and create XML files fully compliant with local Intrastat form
 Cronus International is required report on shipments to EU and receipts from EU. You are assigned to test the settings on an evaluation company before adding the settings into your company.</p>
 <p><strong>Availability:</strong> can be accessed from Search for Page or Report…</p>
 <p><strong>Pre-requisites:</strong> No pre-requisites required</p>
-<h3 id="create-evaluation-company">Create Evaluation Company</h3>
-<ol>
-<li><p>Click on the button Search for Page or Report...
-<img src="images/intrastat_search.png" alt="alt"></p>
-</li>
-<li><p>Type Companies and select Companies from Lists
-<img src="images/intrastat_eval001.png" alt="alt"></p>
-</li>
-<li><p>Press New,  select Create New Company, press Next
-<img src="images/intrastat_eval002.png" alt="alt"></p>
-</li>
-<li><p>Enter company name, for example, INTRASTAT-EVALUATION; set Evaluation-Sample Data in field Select the Data and Setup to Get Started
-<img src="images/intrastat_eval003.png" alt="alt"></p>
-</li>
-<li><p>Press Next, Next, Finish</p>
-</li>
-<li><p>In My Settings, select your evaluation company
-<img src="images/intrastat_eval004.png" alt="alt"></p>
-</li>
-</ol>
 <h3 id="configuration-package-import">Configuration package import</h3>
 <p>Basic necessary system setup for the use of Latvian Intrastat Reporting Localization is created, when applying the configuration package LV.INTRASTAT.EVAL.</p>
 <ol>
@@ -151,7 +131,7 @@ Cronus International is required report on shipments to EU and receipts from EU.
 <li>Name</li>
 <li>Address</li>
 <li>Post Code</li>
-<li>Country</li>
+<li>Country/Region Code</li>
 <li>Registration No. - copy the VAT registration number and set it as Registration No.</li>
 <li>VAT Registration No.</li>
 </ul>
@@ -163,7 +143,7 @@ Cronus International is required report on shipments to EU and receipts from EU.
 <li><p>Click on the button Search for Page or Report...
 <img src="images/intrastat_search.png" alt="alt"></p>
 </li>
-<li><p>Type Tariff Numbers and select Tariff Numbers from Pages and Tasks
+<li><p>Type <em>Tariff Numbers</em> and select <em>Tariff Numbers</em> from Pages and Tasks
 <img src="images/intrastat_tariff001.png" alt="alt"></p>
 </li>
 </ol>
@@ -184,7 +164,7 @@ Cronus International is required report on shipments to EU and receipts from EU.
 <li><p>Click on the button Search for Page or Report...
 <img src="images/intrastat_search.png" alt="alt"></p>
 </li>
-<li><p>Type Items and select Items from Pages and Tasks
+<li><p>Type <em>Items</em> and select <em>Items</em> from Pages and Tasks
 <img src="images/intrastat_item001.png" alt="alt"></p>
 </li>
 <li><p>Open Item card for item 1896-S</p>
@@ -211,12 +191,12 @@ Cronus International is required report on shipments to EU and receipts from EU.
 <li><p>Click on the button Search for Page or Report...
 <img src="images/intrastat_search.png" alt="alt"></p>
 </li>
-<li><p>Type Customers and select Customers
+<li><p>Type <em>Customers</em> and select <em>Customers</em> from the list
 <img src="images/intrastat_customer001.png" alt="alt"></p>
 </li>
 <li><p>Open customer card Alpine Ski House (No. 40000)</p>
 </li>
-<li><p>Update customer card wih VAT Registration No. DE999999222</p>
+<li><p>Update customer card with VAT Registration No. DE999999222</p>
 </li>
 <li><p><img src="images/intrastat_customer002.png" alt="alt"></p>
 </li>
@@ -226,7 +206,7 @@ Cronus International is required report on shipments to EU and receipts from EU.
 <li><p>Click on the button Search for Page or Report...
 <img src="images/intrastat_search.png" alt="alt"></p>
 </li>
-<li><p>Type Purchase Orders and select Purchase Orders
+<li><p>Type <em>Purchase Orders</em> and select <em>Purchase Orders</em> from the list
 <img src="images/intrastat_purchase001.png" alt="alt"></p>
 </li>
 <li><p>Create New Purchase order for Vendor 30000 Graphic Design Institute
@@ -235,8 +215,9 @@ Cronus International is required report on shipments to EU and receipts from EU.
 <li><p>Complete the following data:</p>
 <ul>
 <li>Vendor Name - Graphic Design Institute</li>
-<li>Posting Date - 06.04.2020</li>
-<li>Document Date - 06.04.2020</li>
+<li>Posting Date - 06.04.2021</li>
+<li>Document Date - 06.04.2021</li>
+<li>Order Date - 06.04.2021</li>
 <li>Vendor Invoice No. - 1111</li>
 <li>Shipment Method Code – EXW</li>
 <li>Transaction type - 11</li>
@@ -276,14 +257,15 @@ Cronus International is required report on shipments to EU and receipts from EU.
 <li><p>Type Sales Orders and select Sales Orders
 <img src="images/intrastat_sale001.png" alt="alt"></p>
 </li>
-<li><p>Create New Purchase order for Customer 40000 Alpine Ski House
+<li><p>Create New Sales order for Customer 40000 Alpine Ski House
 <img src="images/intrastat_sale002.png" alt="alt"></p>
 </li>
 <li><p>Complete the following data:</p>
 <ul>
 <li>Customer Name - Alpine Ski House</li>
-<li>Posting Date - 06.04.2020</li>
-<li>Document Date - 06.04.2020</li>
+<li>Posting Date - 06.04.2021</li>
+<li>Document Date - 06.04.2021</li>
+<li>Order Date - 06.04.2021</li>
 <li>Shipment Method Code – CIF</li>
 <li>Transaction type - 11</li>
 <li>Transport Method – 1
@@ -314,33 +296,33 @@ Cronus International is required report on shipments to EU and receipts from EU.
 <img src="images/intrastat_sale006.png" alt="alt">
 <img src="images/intrastat_sale007.png" alt="alt"></li>
 </ol>
-<h3 id="create-intrastat-journal-print-reports-and-create-files-for-central-statistics-burreau">Create Intrastat journal, print reports and create files for Central Statistics Burreau</h3>
+<h3 id="create-intrastat-journal-print-reports-and-create-files-for-central-statistics-bureau">Create Intrastat journal, print reports and create files for Central Statistics Bureau</h3>
 <ol>
 <li><p>Click on the button Search for Page or Report...
 <img src="images/intrastat_search.png" alt="alt"></p>
 </li>
-<li><p>Type Intrastat Journals and select Intrastat Journals
+<li><p>Type <em>Intrastat Journals</em> and select <em>Intrastat Journals</em> from the list
 <img src="images/intrastat_journal001.png" alt="alt"></p>
 </li>
 <li><p>Create New Intrastat Journal Batch
 <img src="images/intrastat_journal002.png" alt="alt">
 <img src="images/intrastat_journal003.png" alt="alt"></p>
 </li>
-<li><p>Complete information for intrastat journal batch and press OK</p>
+<li><p>Complete information for Intrastat journal batch and press <em>OK</em></p>
 <ul>
-<li>Name - 2020_04</li>
-<li>Description - 2020 April</li>
-<li>Statistics Period - 2004
+<li>Name - 2021_04</li>
+<li>Description - 2021 April</li>
+<li>Statistics Period - 2104
 <img src="images/intrastat_journal004.png" alt="alt"></li>
 </ul>
 </li>
-<li><p>In Intrastat journal batch 2020_04 press Suggest Lines
+<li><p>In Intrastat journal batch 2021_04 press <em>Process - Suggest Lines</em>
 <img src="images/intrastat_journal005.png" alt="alt"></p>
 </li>
-<li><p>In options review that the filters are set and press OK</p>
+<li><p>In options review that the filters are set and press <em>OK</em></p>
 <ul>
-<li>Starting Date - 01.04.2020</li>
-<li>Ending Date - 30.04.2020</li>
+<li>Starting Date - 01.04.2021</li>
+<li>Ending Date - 30.04.2021</li>
 </ul>
 </li>
 </ol>
@@ -349,37 +331,37 @@ Cronus International is required report on shipments to EU and receipts from EU.
 <li><p>Review the lines created
 <img src="images/intrastat_journal007.png" alt="alt"></p>
 </li>
-<li><p>Print Intrastat Overview Report Receipt 1-A and set AH as Reporter
+<li><p>Print Intrastat Overview Report Receipt 1-A and set EH as Reporter
 <img src="images/intrastat_journal008.png" alt="alt">
 <img src="images/intrastat_journal009.png" alt="alt">
 <img src="images/intrastat_journal010.png" alt="alt">
 <img src="images/intrastat_journal011.png" alt="alt"></p>
 </li>
-<li><p>Print Intrastat Overview Report Receipt 1-B and set AH as Reporter
+<li><p>Print Intrastat Overview Report Receipt 1-B and set EH as Reporter
 <img src="images/intrastat_journal008.png" alt="alt">
 <img src="images/intrastat_journal012.png" alt="alt">
 <img src="images/intrastat_journal013.png" alt="alt">
 <img src="images/intrastat_journal014.png" alt="alt"></p>
 </li>
-<li><p>Print Intrastat Overview Report Shipment 2-A and set AH as Reporter
+<li><p>Print Intrastat Overview Report Shipment 2-A and set EH as Reporter
 <img src="images/intrastat_journal008.png" alt="alt">
 <img src="images/intrastat_journal015.png" alt="alt">
 <img src="images/intrastat_journal016.png" alt="alt">
 <img src="images/intrastat_journal017.png" alt="alt"></p>
 </li>
-<li><p>Print Intrastat Overview Report Receipt 2-B and set AH as Reporter
+<li><p>Print Intrastat Overview Report Receipt 2-B and set EH as Reporter
 <img src="images/intrastat_journal008.png" alt="alt">
 <img src="images/intrastat_journal018.png" alt="alt">
 <img src="images/intrastat_journal019.png" alt="alt">
 <img src="images/intrastat_journal020.png" alt="alt"></p>
 </li>
-<li><p>Create file for Intrastat Overview Report Receipt 1-A and set AH as Reporter
+<li><p>Create file for Intrastat Overview Report Receipt 1-A and set EH as Reporter
 <img src="images/intrastat_journal008.png" alt="alt"></p>
 </li>
 </ol>
 <ul>
 <li>Report Type - Receipt 1-A</li>
-<li>Reporter - AH</li>
+<li>Reporter - EH</li>
 <li>Create CSB XML file - enabled</li>
 </ul>
 <p><img src="images/intrastat_file001.png" alt="alt"></p>
@@ -388,12 +370,12 @@ Cronus International is required report on shipments to EU and receipts from EU.
 </ul>
 <p><img src="images/intrastat_file005.png" alt="alt"></p>
 <ol start="13">
-<li>Create a file for Overview Report Receipt 1-B and set AH as Reporter
+<li>Create a file for Overview Report Receipt 1-B and set EH as Reporter
 <img src="images/intrastat_journal008.png" alt="alt"></li>
 </ol>
 <ul>
 <li>Report Type - Receipt 1-B</li>
-<li>Reporter - AH</li>
+<li>Reporter - EH</li>
 <li>Create CSB XML file - enabled</li>
 </ul>
 <p><img src="images/intrastat_file002.png" alt="alt"></p>
@@ -402,12 +384,12 @@ Cronus International is required report on shipments to EU and receipts from EU.
 </ul>
 <p><img src="images/intrastat_file005.png" alt="alt"></p>
 <ol start="14">
-<li>Create file for Overview Report Shipment 2-A and set AH as Reporter
+<li>Create file for Overview Report Shipment 2-A and set EH as Reporter
 <img src="images/intrastat_journal008.png" alt="alt"></li>
 </ol>
 <ul>
 <li>Report Type - Shipment 2-A</li>
-<li>Reporter - AH</li>
+<li>Reporter - EH</li>
 <li>Create CSB XML file - enabled</li>
 </ul>
 <p><img src="images/intrastat_file003.png" alt="alt"></p>
@@ -416,12 +398,12 @@ Cronus International is required report on shipments to EU and receipts from EU.
 </ul>
 <p><img src="images/intrastat_file005.png" alt="alt"></p>
 <ol start="15">
-<li>Create file for Overview Report Shipment 2-B and set AH as Reporter
+<li>Create file for Overview Report Shipment 2-B and set EH as Reporter
 <img src="images/intrastat_journal008.png" alt="alt"></li>
 </ol>
 <ul>
 <li>Report Type - Shipment 2-B</li>
-<li>Reporter - AH</li>
+<li>Reporter - EH</li>
 <li>Create CSB XML file - enabled</li>
 </ul>
 <p><img src="images/intrastat_file004.png" alt="alt"></p>
