@@ -2199,6 +2199,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "articles/cash_management/cash_management.md",
       "output": {
@@ -2211,6 +2214,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "articles/cash_management/faq.md",
       "output": {
@@ -2224,362 +2230,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Get_001.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Get_001.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Get_002.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Get_002.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Get_003.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Get_003.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Get_004.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Get_004.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Get_005.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Get_005.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Get_006.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Get_006.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Get_007.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Get_007.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Get_008.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Get_008.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Get_009.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Get_009.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Get_010.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Get_010.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Get_011.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Get_011.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Get_012.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Get_012.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Get_013.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Get_013.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Get_014.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Get_014.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Get_015.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Get_015.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Get_018.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Get_018.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Get_019.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Get_019.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Get_020.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Get_020.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Set_001.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Set_001.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Set_002.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Set_002.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Set_003.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Set_003.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Set_004.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Set_004.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "articles/cash_management/images/Thumbs.db",
       "output": {
         "resource": {
           "relative_path": "articles/cash_management/images/Thumbs.db"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Use_001.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Use_001.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Use_002.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Use_002.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Use_003.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Use_003.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Use_004.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Use_004.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Use_005.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Use_005.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Use_006.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Use_006.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Use_007.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Use_007.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Use_008.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Use_008.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Use_009.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Use_009.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Use_010.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Use_010.png"
         }
       },
       "is_incremental": false,
@@ -2646,17 +2300,6 @@
       "output": {
         "resource": {
           "relative_path": "articles/cash_management/images/cash_bank006.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/cash_bank007.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/cash_bank007.png"
         }
       },
       "is_incremental": false,
@@ -2778,61 +2421,6 @@
       "output": {
         "resource": {
           "relative_path": "articles/cash_management/images/cash_emp003.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/cash_eval001.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/cash_eval001.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/cash_eval002.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/cash_eval002.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/cash_eval003.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/cash_eval003.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/cash_eval004.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/cash_eval004.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/cash_income002.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/cash_income002.png"
         }
       },
       "is_incremental": false,
@@ -3229,17 +2817,6 @@
       "output": {
         "resource": {
           "relative_path": "articles/cash_management/images/cash_use_payment006.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/cash_use_templ001.png",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/cash_use_templ001.png"
         }
       },
       "is_incremental": false,
