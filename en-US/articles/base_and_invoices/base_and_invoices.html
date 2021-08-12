@@ -80,7 +80,7 @@
 <h1 id="get-started">Get Started</h1>
 
 <h2 id="role-center">Role Center</h2>
-<p>In order to use Latvian Base Localization, no specific role center is required, because the functionality can be accessed via search pane, whereas printout buttons are embedded inside ribbon under the tab ACTIONS.</p>
+<p>In order to use Latvian Base Localization, no specific role center is required, because the functionality can be accessed via search pane.</p>
 <h2 id="configuration-package-import">Configuration package import</h2>
 <p>Basic necessary system setup for the use of Latvian Base Localization is created, when applying the configuration package LVI.LVI.STANDARD.</p>
 <ol>
@@ -92,13 +92,13 @@
 </ol>
 <p><img src="images/Get_Started_002.png" alt="alt"></p>
 <ol start="3">
-<li>Import Configuration Package LVI.LVI.Standard by pressing Import Package... in the Ribbon</li>
+<li>Import Configuration Package LVI.LVI.STANDARD by pressing Import Package... in the Ribbon</li>
 </ol>
 <p><img src="images/Get_Started_0021.png" alt="alt"></p>
 <ol start="4">
 <li><p>Select the Config. Package LVI.LVI.Standard from your file system</p>
 </li>
-<li><p>Select LVI.LVI.Standard package from list of Config. Packages and press Apply Package.</p>
+<li><p>Select LVI.LVI.STANDARD package from list of Config. Packages and press Apply Package.</p>
 </li>
 </ol>
 <p><img src="images/Get_Started_003.png" alt="alt"></p>
@@ -204,14 +204,14 @@
 </ol>
 <p><img src="images/Get_Started_019.png" alt="alt"></p>
 <ol start="16">
-<li>Create New Financial Year in Accounting Period</li>
+<li>Create New Financial Year in Accounting Periods</li>
 </ol>
 <p><img src="images/Get_Started_020.png" alt="alt"></p>
 <p><img src="images/Get_Started_021.png" alt="alt"></p>
 <h1 id="setup">Setup</h1>
 <h2 id="registration-number">Registration number</h2>
-<p>Registration number is a field added in Customer card and Vendor card. It does not require any additional setup and is used for entering and storing the information.
-It is possible to setup registration number check for customers in Sales &amp;Receivables Setup by selecting an option:</p>
+<p>Registration number is a field included in Customer card and Vendor card. It does not require any additional setup and is used for entering and storing the information.
+It is possible to setup registration number check for customers in Sales &amp; Receivables Setup by selecting an option:</p>
 <ol>
 <li>None- registration number is not controlled; two or more customer cards may exist with the same customer company registration number</li>
 <li>Message – the system gives a message, if a user is entering a registration number for a customer that already exists in the system</li>
@@ -252,7 +252,7 @@ It is possible to setup registration number check for customers in Sales &amp;Re
 </ul>
 <p><img src="images/Setup_006.png" alt="alt"></p>
 <h2 id="banks">Banks</h2>
-<p>By applying LVI.LVI.Standard configuration package, the Bank Export/Import Setup shall be modified by adding the particular payment export and bank statement import formats.
+<p>By applying LVI.LVI.STANDARD configuration package, the Bank Export/ Import Setup shall be modified by adding the particular payment export and bank statement import formats.
 The following information should be filled in Bank Account Card, in order to ensure successful payment file export and bank statement import:</p>
 <ul>
 <li>Payment Export Format- LV_SEPA_EXPORT</li>
@@ -289,7 +289,7 @@ In order to enable the Currency Exchange Rate Service proceed with following ste
 </ol>
 <p><img src="images/Setup_013.png" alt="alt"></p>
 <ol start="3">
-<li>Select ECB-EXCHANGE-RATES from Currency Exchange Rate Services and press Enable.</li>
+<li>Select ECB-EXCHANGE-RATES from Currency Exchange Rate Services and press Process - Enable.</li>
 </ol>
 <p><img src="images/Setup_014.png" alt="alt"></p>
 <h2 id="document-printouts">Document Printouts</h2>
@@ -360,10 +360,7 @@ Transporters can be specified in the following documents under the fast tab Deli
 </ul>
 <p><img src="images/To_003.png" alt="alt"></p>
 <p>Transporter can be selected from the List of transporters in the documents mentioned above by completing Transporter Code. After Transporter Code is selected, the system populates Transporter Person Name, Vehicle Reg. No., Transporter Company Name, Transporter Company Reg. No., Transporter Company Address, that were entered in Transporter Card.</p>
-<p><img src="images/To_004.png" alt="alt"></p>
-<p><img src="images/To_005.png" alt="alt"></p>
-<p>If Transporter Code is left blank, then it is possible to enter transporter information manually.</p>
-<p><img src="images/To_006.png" alt="alt"></p>
+<p>If Transporter Code is left blank, then it is possible to enter other fields in tab Delivery for the transporter information manually.</p>
 <p>When LV Sales Invoice is printed, it is possible to choose whether to print out the transporter information from document either use sender information, or receiver information, or leave the transporter information blank.</p>
 <p><img src="images/To_007.png" alt="alt"></p>
 <p>After the documents have been posted, it is possible to see the Transporter information in:</p>
@@ -378,26 +375,28 @@ Transporters can be specified in the following documents under the fast tab Deli
 <p>Bank functionality ensures:</p>
 <ul>
 <li>possibility to export payment files in ISO format that can be uploaded into Banking Online of commercial banks of Latvia</li>
-<li>possibility to upload bank statement files in ISO format into Business Central
-Export Payment File
-<strong>Purpose</strong>: ensures possibility to export payment files in ISO format that can be uploaded into Banking Online of commercial banks of Latvia
-<strong>Availability</strong>: can be accessed from Payment Journal
-<strong>Pre-requisites</strong>: Payment journal batch should have a balancing account mentioned and Allow Payment Export checked.</li>
+<li>possibility to upload bank statement files in ISO format into Business Central</li>
 </ul>
+<h3 id="export-payment-file">Export Payment File.</h3>
+<p><strong>Purpose</strong>: ensures possibility to export payment files in ISO format that can be uploaded into Banking Online of commercial banks of Latvia.</p>
+<p><strong>Availability</strong>: can be accessed from Payment Journal.</p>
+<p><strong>Pre-requisites</strong>: Payment journal batch should have a balancing account mentioned and Allow Payment Export checked.</p>
 <p><img src="images/To_008.png" alt="alt"></p>
 <p>In order to use the functionality, the following steps are required:</p>
 <ol>
 <li>Create payment lines in Payment Journal</li>
-<li>Particular Export… button is located in the Ribbon under the TAB HOME, in section PROCESS in Payment Journal.</li>
+<li>Press button Export.</li>
 </ol>
 <p><img src="images/To_009.png" alt="alt"></p>
 <ol start="3">
-<li>Save file and upload it to Banking Online for your commercial bank in Latvia (for uploading steps, please require guidance of your specific commercial bank)
-Import Bank Statement
-<strong>Purpose</strong>: ensures possibility to upload bank statement files in ISO format into Business Central
-<strong>Availability</strong>: can be accessed from Payment Reconciliation Journal
-<strong>Pre-requisites</strong>: Bank Account Card should have Bank Account No. , IBAN, Bank Statement Import Format defined
-In order to use the functionality, the following steps are required:</li>
+<li>Save file and upload it to Banking Online for your commercial bank in Latvia (for uploading steps, please require guidance of your specific commercial bank).</li>
+</ol>
+<h3 id="import-bank-statement">Import Bank Statement</h3>
+<p><strong>Purpose</strong>: ensures possibility to upload bank statement files in ISO format into Business Central.</p>
+<p><strong>Availability</strong>: can be accessed from Payment Reconciliation Journal.</p>
+<p><strong>Pre-requisites</strong>: Bank Account Card should have Bank Account No. , IBAN, Bank Statement Import Format defined
+In order to use the functionality, the following steps are required:</p>
+<ol>
 <li>Click on the button Search for Page or Report...</li>
 </ol>
 <p><img src="images/To_010.png" alt="alt"></p>
@@ -418,14 +417,13 @@ In order to use the functionality, the following steps are required:</li>
 </ol>
 <p><img src="images/To_014.png" alt="alt"></p>
 <ol start="6">
-<li>After all transactions are applied and accepted, proceed with posting payment reconciliation journal</li>
+<li>After all transactions are applied and accepted, proceed with posting payment reconciliation journal.</li>
 </ol>
-<p><img src="images/To_015.png" alt="alt"></p>
 <h2 id="how-to-use-foreign-payments">How to use: Foreign Payments</h2>
-<p>Assign Foreign Payment Code for transaction
-<strong>Purpose</strong>: National Bank of Latvia requires to specify foreign payment code for external incoming payments. When posting external incoming payments, a Foreign Payment Code needs to be assigned to particular transaction. Afterwards a Foreign Payment Report can be created.
-<strong>Availability</strong>: can be accessed from Payment Journal, Payment Reconciliation Journal
-<strong>Pre-requisites</strong>: List of Foreign Payment needs to be completed.
+<h3 id="assign-foreign-payment-code-for-transaction">Assign Foreign Payment Code for transaction.</h3>
+<p><strong>Purpose</strong>: National Bank of Latvia requires to specify foreign payment code for external incoming payments. When posting external incoming payments, a Foreign Payment Code needs to be assigned to particular transaction. Afterwards a Foreign Payment Report can be created.</p>
+<p><strong>Availability</strong>: can be accessed from Payment Journal, Payment Reconciliation Journal.</p>
+<p><strong>Pre-requisites</strong>: List of Foreign Payment needs to be completed.
 In order to use the functionality, the following steps are required:</p>
 <ol>
 <li>Click on the button Search for Page or Report...</li>
@@ -442,9 +440,9 @@ In order to use the functionality, the following steps are required:</p>
 <p>The same steps apply to the use of Foreign Payment Code in Payment Reconciliation Journal. Import bank transactions in Payment Reconciliation journal line with an incoming payment from a foreign Customer, assign Foreign Payment Code before posting.</p>
 <p><img src="images/To_019.png" alt="alt"></p>
 <h3 id="prepare-report-foreign-bank-payments-1-ib">Prepare Report Foreign Bank Payments 1-IB</h3>
-<p><strong>Purpose</strong>: Foreign Bank Payments 1-IB is used, in order to prepare information for National Bank of Latvia on incoming external payments on a monthly basis.
-<strong>Availability</strong>: can be accessed from Search for Page or Report…
-<strong>Pre-requisites</strong>: List of Foreign Payment needs to be completed; Foreign Payment Codes needs to be assigned per transaction before it is posted
+<p><strong>Purpose</strong>: Foreign Bank Payments 1-IB is used, in order to prepare information for National Bank of Latvia on incoming external payments on a monthly basis.</p>
+<p><strong>Availability</strong>: can be accessed from Search for Page or Report…</p>
+<p><strong>Pre-requisites</strong>: List of Foreign Payment needs to be completed; Foreign Payment Codes needs to be assigned per transaction before it is posted
 In order to use the functionality, the following steps are required:</p>
 <ol>
 <li>Click on the button Search for Page or Report...</li>
@@ -469,9 +467,9 @@ Also a filter on bank ledger entries can be applied, when creating the report</l
 <p><img src="images/To_023.png" alt="alt"></p>
 <h2 id="how-to-use-currency-exchange-rate-import">How to use: Currency Exchange Rate Import</h2>
 <p><strong>Purpose</strong>: transactions in foreign currencies are recorded in the system in local currency, based on currency exchange rate. Currency Exchange Rates may be uploaded into system either automatically on a regular basis using a job que entry or manually by user. The source of information is European Central Bank (<a href="http://www.ecb.int/stats/exchange/eurofxref/html/index.en.html">http://www.ecb.int/stats/exchange/eurofxref/html/index.en.html</a>)
-The functionality ensures currency exchange rate import for all currency codes for a period of 90 days, for which European Central Bank provides the exchange rate. Other currency exchanges rates for currencies not publish by European Central bank may be entered manually.
-<strong>Availability</strong>: can be accessed from List of Currencies
-<strong>Pre-requisites</strong>: Currency cards need to be completed with currency code and related standard setup.
+The functionality ensures currency exchange rate import for all currency codes for a period of 90 days, for which European Central Bank provides the exchange rate. Other currency exchanges rates for currencies not publish by European Central bank may be entered manually.</p>
+<p><strong>Availability</strong>: can be accessed from List of Currencies.</p>
+<p><strong>Pre-requisites</strong>: Currency cards need to be completed with currency code and related standard setup.
 In order to use the functionality manually, the following steps are required:</p>
 <ol>
 <li>Click on the button Search for Page or Report...</li>
@@ -486,9 +484,9 @@ In order to use the functionality manually, the following steps are required:</p
 </ol>
 <p><img src="images/To_026.png" alt="alt"></p>
 <ol start="4">
-<li>Define Import Currency Rates options
-<strong>Options</strong>:</li>
+<li>Define Import Currency Rates options</li>
 </ol>
+<p><strong>Options</strong>:</p>
 <ul>
 <li>From Date – set the period start date for import</li>
 <li>To Date – set the period end date for import (by default is set to today)</li>
@@ -512,11 +510,11 @@ Foreign currency exchange rate amounts are calculated as amount of foreign curre
 It is recommended to create printouts mentioned above from Posted documents.</li>
 </ul>
 <h3 id="sales-invoice">Sales Invoice</h3>
-<p><strong>Purpose</strong>: is prepared for customers for goods shipped or services provided as sales source document. The printout has required data, in order to be treated as source document, procurement document (confirming delivery of goods), service invoice, VAT invoice.
-Available for printing from: document can be printed from unposted sales documents- Sales Order, Sales Invoice; from posted sales documents- Posted Sales Invoice. Particular Print button LV Sales Invoice is located in the Ribbon under the TAB ACTIONS, in section PRINT.</p>
-<p><img src="images/To_029.png" alt="alt"></p>
-<p><strong>Pre-requisites</strong>: Sales Order and Sales Invoice should be in status Released; no pre-requisites for Posted Sales Invoice
-<strong>Printing Options</strong>: the following printing options are available for this printout:</p>
+<p><strong>Purpose</strong>: is prepared for customers for goods shipped or services provided as sales source document. The printout has required data, in order to be treated as source document, procurement document (confirming delivery of goods), service invoice, VAT invoice.</p>
+<p><strong>Available for printing from</strong>: document can be printed from unposted sales documents- Sales Order, Sales Invoice; from posted sales documents- Posted Sales Invoice.
+<img src="images/To_029.png" alt="alt"></p>
+<p><strong>Pre-requisites</strong>: Sales Order and Sales Invoice should be in status Released; no pre-requisites for Posted Sales Invoice.</p>
+<p><strong>Printing Options</strong>: the following printing options are available for this printout:</p>
 <ul>
 <li>Count of Copies – determine how many additional copies should be printed together with original document; any integer can be entered</li>
 <li>Service invoice – if checked, then the printout omits information related to delivery of goods (Vendor Delivery Address, Customer Delivery Address), transporter information and has no signature line for the Customer</li>
@@ -530,35 +528,29 @@ Available for printing from: document can be printed from unposted sales documen
 <p>When the printing options are selected, it is possible to use standard Send To…, Print, Preview functions.</p>
 <p><img src="images/To_031.png" alt="alt"></p>
 <h3 id="sales-prepayment-invoice">Sales Prepayment Invoice</h3>
-<p><strong>Purpose</strong>: is prepared for customers as a sales prepayment invoice for goods not yet shipped or services not yet provided as sales source document. The printout has all required data for sales prepayment document.
-<strong>Available for printing from</strong>: document can be printed from unposted sales documents- Sales Order.
-Particular Print button LV Sales Prepayment Invoice is located in the Ribbon under the TAB ACTIONS, in section PRINT.</p>
-<p><img src="images/To_032.png" alt="alt"></p>
+<p><strong>Purpose</strong>: is prepared for customers as a sales prepayment invoice for goods not yet shipped or services not yet provided as sales source document. The printout has all required data for sales prepayment document.</p>
+<p><strong>Available for printing from</strong>: document can be printed from unposted sales documents- Sales Order.
+<img src="images/To_032.png" alt="alt"></p>
 <p><strong>Pre-requisites</strong>:
 Prepayment % should be completed in Sales Order or Sales Order Lines.
-LV Sales Prepayment Invoice should be printed before posting Prepayment Invoice.</p>
-<p><img src="images/To_033.png" alt="alt">
-<strong>Printing Options</strong>: the following printing options are available for this printout:</p>
+LV Sales Prepayment Invoice should be printed before posting Prepayment Invoice.
+<img src="images/To_033.png" alt="alt"></p>
+<p><strong>Printing Options</strong>: the following printing options are available for this printout:</p>
 <ul>
 <li>Count of Copies – determine how many additional copies should be printed together with original document; any integer can be entered</li>
 <li>Print Payer – if checked, then the printout prints the Payer information (Bill-To Customer) in the header of the document below the Customer information. Applies if only the Bill-To Customer differs from Sell-To Customer</li>
 <li>Print Amount in LCY – used for documents in foreign currency, if checked, then additional section is printed (Total excluding VAT, VAT%, Total including VAT) in local currency of the company</li>
 <li>Print Salesperson Name – if checked, then Salesperson name is printed in the signatory part of the invoice; salesperson code should be filled in the document</li>
-<li>Print VAT Specification – if checked, then VAT specification is printed (VAT ID, VAT%, VAT Base, VAT Amount) in currency of the document
-<img src="images/To_034.png" alt="alt">
-<img src="images/To_035.png" alt="alt"></li>
+<li>Print VAT Specification – if checked, then VAT specification is printed (VAT ID, VAT%, VAT Base, VAT Amount) in currency of the document</li>
 </ul>
+<p><img src="images/To_034.png" alt="alt">
+<img src="images/To_035.png" alt="alt"></p>
 <h3 id="sales-credit-memo">Sales Credit Memo</h3>
-<p>Purpose: is prepared for customers for goods returned or services cancelled as sales return source document. The printout has required data, in order to be treated as source document, procurement document (confirming delivery of goods), service invoice, VAT invoice.
-Available for printing from: unposted sales return documents- Sales Return Order, Sales Credit Memo; posted sales return documents – Posted Sales Credit Memo.
-Particular Print button LV Sales Cr. Memo is located in the Ribbon under the TAB ACTIONS, in section GENERAL in Sales Return Orders.</p>
-<p><img src="images/To_036.png" alt="alt"></p>
-<p>Particular Print button LV Sales Cr. Memo is located in the Ribbon under the TAB ACTIONS, in section PRINT in Sales Credit Memo.</p>
-<p><img src="images/To_037.png" alt="alt"></p>
-<p>Particular Print button LV Sales Cr. Memo is located in the Ribbon under the TAB ACTIONS, in section GENERAL in Posted Sales Credit Memo.</p>
-<p><img src="images/To_038.png" alt="alt"></p>
-<p><strong>Pre-requisites</strong>: Sales Return Order and Sales Credit Memo should be in status Released; no pre-requisites for Posted Sales Credit Memo.
-<strong>Printing Options</strong>:</p>
+<p><strong>Purpose</strong>: is prepared for customers for goods returned or services cancelled as sales return source document. The printout has required data, in order to be treated as source document, procurement document (confirming delivery of goods), service invoice, VAT invoice.</p>
+<p><strong>Available for printing from</strong>: unposted sales return documents- Sales Return Order, Sales Credit Memo; posted sales return documents – Posted Sales Credit Memo.
+<img src="images/To_036.png" alt="alt"></p>
+<p><strong>Pre-requisites</strong>: Sales Return Order and Sales Credit Memo should be in status Released; no pre-requisites for Posted Sales Credit Memo.</p>
+<p><strong>Printing Options</strong>:</p>
 <ul>
 <li>Count of Copies – determine how many additional copies should be printed together with original document; any integer can be entered</li>
 <li>Service invoice – if checked, then the printout omits information related to delivery of goods (Vendor Delivery Address, Customer Delivery Address), transporter information and has no signature line for the Customer</li>
@@ -572,16 +564,11 @@ Particular Print button LV Sales Cr. Memo is located in the Ribbon under the TAB
 <p><img src="images/To_039.png" alt="alt"></p>
 <p><img src="images/To_040.png" alt="alt"></p>
 <h3 id="purchase-credit-memo">Purchase Credit Memo</h3>
-<p><strong>Purpose</strong>: is prepared for vendors to whom the goods are returned. The printout has required data, in order to be treated as source document, procurement document (confirming delivery of goods), service invoice, VAT invoice
-<strong>Available for printing from</strong>: unposted purchase return documents – Purchase Return Order, Purchase Credit Memo; posted purchase return documents – Posted Purchase Credit Memo.
-Particular Print button LV Purchase Cr. Memo is located in the Ribbon under the TAB ACTIONS, in section GENERAL in Purchase Return Orders.</p>
+<p><strong>Purpose</strong>: is prepared for vendors to whom the goods are returned. The printout has required data, in order to be treated as source document, procurement document (confirming delivery of goods), service invoice, VAT invoice.</p>
+<p><strong>Available for printing from</strong>: unposted purchase return documents – Purchase Return Order, Purchase Credit Memo; posted purchase return documents – Posted Purchase Credit Memo.</p>
 <p><img src="images/To_041.png" alt="alt"></p>
-<p>Particular Print button LV Purchase Cr. Memo is located in the Ribbon under the TAB ACTIONS, in section PRINT in Purchase Credit Memo.</p>
-<p><img src="images/To_042.png" alt="alt"></p>
-<p>Particular Print button LV Purchase Cr. Memo is located in the Ribbon under the TAB ACTIONS, in section GENERAL in Posted Purchase Credit Memo.</p>
-<p><img src="images/To_043.png" alt="alt"></p>
-<p><strong>Pre-requisites</strong>: Purchase Return Order and Purchase Credit Memo should be in status Released; no pre-requisites for Posted Purchase Credit Memo.
-<strong>Printing Options</strong>:</p>
+<p><strong>Pre-requisites</strong>: Purchase Return Order and Purchase Credit Memo should be in status Released; no pre-requisites for Posted Purchase Credit Memo.</p>
+<p><strong>Printing Options</strong>:</p>
 <ul>
 <li>Count of Copies – determine how many additional copies should be printed together with original document; any integer can be entered</li>
 <li>Print Payer – if checked, then the printout prints the Payer information (Pay-To Vendor) in the header of the document below the Vendor information. Applies if only the Pay-To Vendor differs from Buy-from Vendor</li>
@@ -593,11 +580,9 @@ Particular Print button LV Purchase Cr. Memo is located in the Ribbon under the 
 <p><img src="images/To_044.png" alt="alt"></p>
 <p><img src="images/To_045.png" alt="alt"></p>
 <h3 id="transfer-invoice">Transfer Invoice</h3>
-<p><strong>Purpose</strong>:  Transfer of goods is required to be supported by a delivery note – transfer invoice. The document indicates the quantity and unit costs of goods transferred.
-<strong>Availability</strong>: can be accessed from Transfer Order, Posted Transfer Shipment;
-Particular Print button LV Transfer Invoice is located in the Ribbon under the TAB ACTIONS, in section PRINT.</p>
+<p><strong>Purpose</strong>:  Transfer of goods is required to be supported by a delivery note – transfer invoice. The document indicates the quantity and unit costs of goods transferred.</p>
+<p><strong>Availability</strong>: can be accessed from Transfer Order, Posted Transfer Shipment.</p>
 <p><img src="images/To_046.png" alt="alt"></p>
-<p><img src="images/To_047.png" alt="alt"></p>
 <p><strong>Printing Options</strong>: the following printing options are available for this printout:</p>
 <ul>
 <li>No. of Copies – determine how many additional copies should be printed together</li>
@@ -607,8 +592,8 @@ Particular Print button LV Transfer Invoice is located in the Ribbon under the T
 <p><img src="images/To_049.png" alt="alt"></p>
 <h2 id="how-to-use-advance-holders">How to use: Advance holders</h2>
 <p><strong>Purpose</strong>:  An advance holder is an employee of a company who is accountable for an expense amount that is provided by the organization. Advance holders are created as Vendors with particular Vendor Posting Group.
-Post Advance Holder Transactions. Advance holder transactions are the procurements made by the Employee, that are considered as company expenses. When a procurement happens, an advance holder reports to the company about the expenditures that were made.
-Advance holder transactions can be recorded in 2 ways:</p>
+Post Advance Holder Transactions. Advance holder transactions are the procurements made by the Employee, that are considered as company expenses. When a procurement happens, an advance holder reports to the company about the expenditures that were made.</p>
+<p>Advance holder transactions can be recorded in 2 ways:</p>
 <ol>
 <li>In case all Vendors, from which an advance holder made procurements, are entered in Business Central as Vendors, then per each advance holder transaction a purchase document (purchase invoice, purchase credit memo) is created. Buy-From Vendor is the original Vendor who provided goods or services, whereas Pay-To Vendor is set as Advance Holder. Posting Description field needs to be completed with information describing the deal.</li>
 </ol>
@@ -616,11 +601,10 @@ Advance holder transactions can be recorded in 2 ways:</p>
 <ol start="2">
 <li>In case Vendors, from which an advance holder made procurements, are NOT entered in Business Central as Vendors, then per each advance holder transaction a purchase journal entry (purchase invoice, purchase credit memo) is created. Description field needs to be completed with information with original vendor data and information describing the deal.</li>
 </ol>
-<p><img src="images/To_051.png" alt="alt"></p>
 <h3 id="prepare-advance-statement-report">Prepare Advance Statement Report</h3>
-<p><strong>Purpose</strong>:  The company reimburses the employee for the expense amount and controls a balance for each advance holder.
-<strong>Availability</strong>: can be accessed from Search for Page or Report…
-<strong>Pre-requisites</strong>: Vendor Card with Vendor Posting Group for Advance holders should be created
+<p><strong>Purpose</strong>:  The company reimburses the employee for the expense amount and controls a balance for each advance holder.</p>
+<p><strong>Availability</strong>: can be accessed from Search for Page or Report…</p>
+<p><strong>Pre-requisites</strong>: Vendor Card with Vendor Posting Group for Advance holders should be created
 In order to use the functionality, the following steps are required:</p>
 <ol>
 <li>Click on the button Search for Page or Report...</li>
@@ -639,11 +623,10 @@ In order to use the functionality, the following steps are required:</p>
 <p><img src="images/To_054.png" alt="alt"></p>
 <p><img src="images/To_055.png" alt="alt"></p>
 <h3 id="customer-balance-reconciliation-statement">Customer Balance Reconciliation Statement</h3>
-<p><strong>Purpose</strong>:  Company may reconcile balances with its customers on regular basis.
-<strong>Availability</strong>: can be accessed from Search for Page or Report…</p>
-<p><img src="images/To_056.png" alt="alt"></p>
-<p><strong>Pre-requisites</strong>: Customer should have at least one transaction.
-<strong>Printing Options</strong>: the following printing options are available for this printout:</p>
+<p><strong>Purpose</strong>:  Company may reconcile balances with its customers on regular basis.</p>
+<p><strong>Availability</strong>: can be accessed from Search for Page or Report…</p>
+<p><strong>Pre-requisites</strong>: Customer should have at least one transaction.</p>
+<p><strong>Printing Options</strong>: the following printing options are available for this printout:</p>
 <ul>
 <li>Reconcile Date – set date for balance reconciliation</li>
 <li>Return Date – set date for the document to be returned to the company</li>
@@ -657,11 +640,10 @@ Customer Balance Reconciliation can be prepared by applying customer filter.</li
 </ul>
 <p><img src="images/To_057.png" alt="alt"></p>
 <h3 id="vendor-balance-reconciliation-statement">Vendor Balance Reconciliation Statement</h3>
-<p><strong>Purpose</strong>:  Company may reconcile balances with its vendors on regular basis.
-<strong>Availability</strong>: can be accessed from Search for Page or Report…</p>
-<p><img src="images/To_058.png" alt="alt"></p>
-<p><strong>Pre-requisites</strong>: Vendor should have at least one transaction.
-<strong>Printing Options</strong>: the following printing options are available for this printout:</p>
+<p><strong>Purpose</strong>:  Company may reconcile balances with its vendors on regular basis.</p>
+<p><strong>Availability</strong>: can be accessed from Search for Page or Report…</p>
+<p><strong>Pre-requisites</strong>: Vendor should have at least one transaction.</p>
+<p><strong>Printing Options</strong>: the following printing options are available for this printout:</p>
 <ul>
 <li>Reconcile Date – set date for balance reconciliation</li>
 <li>Return Date – set date for the document to be returned to the company</li>
@@ -677,75 +659,61 @@ Customer Balance Reconciliation can be prepared by applying customer filter.</li
 <p><img src="images/To_060.png" alt="alt"></p>
 <p><img src="images/To_061.png" alt="alt"></p>
 <h3 id="phys-inventory-document">Phys. Inventory Document</h3>
-<p><strong>Purpose</strong>:  Company may perform a stock-take on regular basis.
-<strong>Availability</strong>: can be accessed from Search for Page or Report…</p>
-<p><img src="images/To_062.png" alt="alt"></p>
-<p><strong>Pre-requisites</strong>: The document can be printed only after the Phys. Inventory Journal lines are posted and Adjust Cost-Item Entries job has been successfully executed.
-<strong>Printing Options</strong>: the following printing options are available for this printout:</p>
+<p><strong>Purpose</strong>:  Company may perform a stock-take on regular basis.</p>
+<p><strong>Availability</strong>: can be accessed from Search for Page or Report…</p>
+<p><strong>Pre-requisites</strong>: document can be printed only after the Phys. Inventory Journal lines are posted and Adjust Cost-Item Entries job has been successfully executed.</p>
+<p><strong>Printing Options</strong>: the following printing options are available for this printout:</p>
 <ul>
-<li>
-<ol>
-<li>Person.. 5.Person – select employees from List of Employees to indicate the commission who participates in stock-take</li>
-</ol>
-</li>
+<li>1.Person.. 5.Person – select employees from List of Employees to indicate the commission who participates in stock-take</li>
 <li>Responsible Person- select employee who is financially responsible for keeping the stock accurate</li>
 <li>Apply Phys. Inventory Ledger Entry Filters to obtain results of particular stock-take</li>
 </ul>
 <p><img src="images/To_063.png" alt="alt"></p>
 <p><img src="images/To_064.png" alt="alt"></p>
 <h3 id="inventory-write-off-document">Inventory Write-off Document</h3>
-<p><strong>Purpose</strong>:  Inventory Write-off document is used for writing-off goods that shall not be sold and recognized as expenses.
-Available for printing from: Item Journal. Particular Print button Inventory Write-Off document is located in the Ribbon under the TAB HOME, in section Report</p>
+<p><strong>Purpose</strong>:  Inventory Write-off document is used for writing-off goods that shall not be sold and recognized as expenses.</p>
+<p><strong>Available for printing from</strong>: Item Journal.</p>
 <p><img src="images/To_065.png" alt="alt"></p>
-<p><strong>Pre-requisites</strong>: Item journal lines with type Negative Adjustment are available in journal not posted
-<strong>Note</strong>: When printing the document from unposted item journal lines, the unit cost may not be actual; therefore it is advised to print Posted Inventory Write-off document, using additional filters on item ledger entry in printing options for Item Ledger Entry</p>
+<p><strong>Pre-requisites</strong>: Item journal lines with type Negative Adjustment are available in the journal not posted.</p>
+<p><strong>Note</strong>: When printing the document from unposted item journal lines, the unit cost may not be actual; therefore it is advised to print Posted Inventory Write-off document, using additional filters on item ledger entry in printing options for Item Ledger Entry</p>
 <p><img src="images/To_066.png" alt="alt"></p>
 <p><strong>Printing Options</strong>: the following printing options are available for this printout:</p>
 <ul>
 <li>Reason – identify the reason for writing items off</li>
-<li>
-<ol>
-<li>Person.. 5.Person – select employees from List of Employees to indicate the commission who confirms write-off</li>
-</ol>
-</li>
+<li>1.Person.. 5.Person – select employees from List of Employees to indicate the commission who confirms write-off</li>
 </ul>
 <p><img src="images/To_067.png" alt="alt"></p>
 <p><img src="images/To_068.png" alt="alt"></p>
 <p><img src="images/To_069.png" alt="alt"></p>
 <h3 id="posted-inventory-write-off-document">Posted Inventory Write-off Document</h3>
-<p><strong>Purpose</strong>:  Inventory Write-off document is used for writing-off goods that shall not be sold and recognized as expenses.
-Available for printing from: can be accessed from Search for Page or Report…</p>
-<p><img src="images/To_070.png" alt="alt"></p>
-<p><strong>Pre-requisites</strong>: Item journal lines with type Negative Adjustment are already posted
-<strong>Note</strong>: When printing the document from unposted item journal lines, the unit cost may not be actual; therefore it is advised to print Posted Inventory Write-off document, using additional filters on item ledger entry in printing options for Item Ledger Entry</p>
+<p><strong>Purpose</strong>:  Inventory Write-off document is used for writing-off goods that shall not be sold and recognized as expenses.</p>
+<p><strong>Available for printing from</strong>: can be accessed from Search for Page or Report…</p>
+<p><strong>Pre-requisites</strong>: Item journal lines with type Negative Adjustment are already posted.</p>
+<p><strong>Note</strong>: When printing the document from unposted item journal lines, the unit cost may not be actual; therefore it is advised to print Posted Inventory Write-off document, using additional filters on item ledger entry in printing options for Item Ledger Entry</p>
 <p><strong>Printing Options</strong>: the following printing options are available for this printout:</p>
 <ul>
 <li>Reason – identify the reason for writing items off</li>
-<li>
-<ol>
-<li>Person.. 5.Person – select employees from List of Employees to indicate the commission who confirms write-off</li>
-</ol>
-</li>
+<li>1.Person.. 5.Person – select employees from List of Employees to indicate the commission who confirms write-off</li>
 </ul>
-<p><img src="images/To_071.png" alt="alt"></p>
+<p><img src="images/To_068.png" alt="alt"></p>
 <p><img src="images/To_072.png" alt="alt"></p>
 <h3 id="fixed-asset-card">Fixed Asset Card</h3>
 <p><strong>Purpose</strong>:  Fixed asset card may be printed that is compliant with local legislation
 Available for printing from: fixed asset card. Particular Print button Fixed Asset Card is located in the Ribbon under the TAB REPORT, in section General</p>
 <p><img src="images/To_073.png" alt="alt"></p>
-<p><strong>Pre-requisites</strong>: fixed asset card must exist
-<strong>Printing Options</strong>: the following printing options are available for this printout:</p>
+<p><strong>Pre-requisites</strong>: fixed asset card must exist.</p>
+<p><strong>Printing Options</strong>: the following printing options are available for this printout:</p>
 <ul>
 <li>No. – determine fixed asset number for which the document is printed</li>
 </ul>
 <p><img src="images/To_074.png" alt="alt"></p>
 <p><img src="images/To_075.png" alt="alt"></p>
 <h3 id="fixed-asset-commissioning-document">Fixed Asset Commissioning Document</h3>
-<p><strong>Purpose</strong>:  Acquisition of a fixed asset is followed by fixed delivery and acceptance document, confirming the launch of a fixed asset in exploitation.
-Available for printing from: fixed asset card. Particular Print button FA Delivery and Acceptance Document is located in the Ribbon under the TAB REPORT, in section General</p>
+<p><strong>Purpose</strong>:  Acquisition of a fixed asset is followed by fixed delivery and acceptance document, confirming the launch of a fixed asset in exploitation.</p>
+<p><strong>Available for printing from</strong>: fixed asset card.</p>
 <p><img src="images/To_076.png" alt="alt"></p>
-<p><strong>Pre-requisites</strong>: fixed asset is created in the system, all required information is completed. Acquisition process has been completed in Business Central.
-<strong>Printing Options</strong>: the following printing options are available for this printout:</p>
+<p><strong>Pre-requisites</strong>: fixed asset is created in the system, all required information is completed. Acquisition process has been completed in Business Central.</p>
+<p><strong>Printing Options</strong>: the following printing options are available for this printout:</p>
 <ul>
 <li>Depreciation Book- choose depreciation book used, in order to represent the fixed asset value</li>
 <li>Either use:</li>
@@ -753,23 +721,17 @@ Available for printing from: fixed asset card. Particular Print button FA Delive
 <p>Document No.- indicate the number of the document for fixed asset count</p>
 <p>Document Date- set document date for fixed asset count
 OR</p>
-<pre><code>No. and Date from FA Ledger Entry – if checked, then Document No. and Document Date need not to be set
-</code></pre>
+<p>No. and Date from FA Ledger Entry – if checked, then Document No. and Document Date need not to be set</p>
 <ul>
-<li>
-<ol>
-<li>Person.. 3.Person – select employees from List of Employees to indicate the commission who confirms existence of fixed assets</li>
-</ol>
-</li>
+<li>1.Person.. 3.Person – select employees from List of Employees to indicate the commission who confirms existence of fixed assets</li>
 <li>Filters for Fixed assets may be applied</li>
 </ul>
 <p><img src="images/To_077.png" alt="alt"></p>
 <h3 id="fixed-asset-phys-inventory-document">Fixed Asset Phys. Inventory Document</h3>
-<p><strong>Purpose</strong>:  Company may prepare fixed asset count, in order to control physical existence of fixed assets on regular basis
-<strong>Available for printing from</strong>: can be accessed from Search for Page or Report…</p>
-<p><img src="images/To_078.png" alt="alt"></p>
-<p><strong>Pre-requisites</strong>: fixed asset is created in the system, all required information is completed
-<strong>Printing Options</strong>: the following printing options are available for this printout:</p>
+<p><strong>Purpose</strong>:  Company may prepare fixed asset count, in order to control physical existence of fixed assets on regular basis.</p>
+<p><strong>Available for printing from</strong>: can be accessed from Search for Page or Report…</p>
+<p><strong>Pre-requisites</strong>: fixed asset is created in the system, all required information is completed.</p>
+<p><strong>Printing Options</strong>: the following printing options are available for this printout:</p>
 <ul>
 <li>Depreciation Book- choose depreciation book used, in order to represent the fixed asset value</li>
 <li>Document No.- indicate the number of the document for fixed asset count</li>
@@ -777,35 +739,27 @@ OR</p>
 <li>Print FA Values- if checked, then fixed asset values (acquisition cost, accumulated depreciation, book value) are printed, taking into account Depreciation book set above</li>
 <li>Print FA with Zero Book Value- .</li>
 <li>Group By – set grouping criteria from none, FA location, Responsible Employee, FA Posting Group</li>
-<li>
-<ol>
-<li>Person.. 3.Person – select employees from List of Employees to indicate the commission who confirms existence of fixed assets</li>
-</ol>
-</li>
+<li>1.Person.. 3.Person – select employees from List of Employees to indicate the commission who confirms existence of fixed assets</li>
 <li>Filters for Fixed assets may be applied</li>
 </ul>
 <p><img src="images/To_079.png" alt="alt"></p>
 <p><img src="images/To_080.png" alt="alt"></p>
 <h3 id="fixed-asset-disposal-document">Fixed Asset Disposal Document</h3>
-<p><strong>Purpose</strong>:  Disposal of a fixed asset is supported by fixed asset disposal document. Additional comments may be placed, when document is sent to Ms Word.
-Available for printing from: fixed asset card. Particular Print button Fixed Asset Card is located in the Ribbon under the TAB REPORT, in section General</p>
+<p><strong>Purpose</strong>:  Disposal of a fixed asset is supported by fixed asset disposal document. Additional comments may be placed, when document is sent to Ms Word.</p>
+<p><strong>Available for printing from</strong>: fixed asset card.</p>
 <p><img src="images/To_081.png" alt="alt"></p>
-<p><strong>Pre-requisites</strong>: fixed asset is created in the system, all required information is completed. Disposal process has been completed in Business Central, book value is set to zero.
-<strong>Printing Options</strong>: the following printing options are available for this printout:</p>
+<p><strong>Pre-requisites</strong>: fixed asset is created in the system, all required information is completed. Disposal process has been completed in Business Central, book value is set to zero.</p>
+<p><strong>Printing Options</strong>: the following printing options are available for this printout:</p>
 <ul>
 <li>Depreciation Book- choose depreciation book used, in order to represent the fixed asset value</li>
 <li>Either use:</li>
 </ul>
 <p>o	Document No.- indicate the number of the document for fixed asset count</p>
 <p>o	Document Date- set document date for fixed asset count</p>
-<p>OR</p>
+<p><em>or</em></p>
 <p>o	No. and Date from FA Ledger Entry – if checked, then Document No. and Document Date need not to be set</p>
 <ul>
-<li>
-<ol>
-<li>Person.. 3.Person – select employees from List of Employees to indicate the commission who confirms existence of fixed assets</li>
-</ol>
-</li>
+<li>1.Person.. 3.Person – select employees from List of Employees to indicate the commission who confirms existence of fixed assets</li>
 <li>Filters for Fixed assets may be applied</li>
 </ul>
 <p><img src="images/To_082.png" alt="alt"></p>
