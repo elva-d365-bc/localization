@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/base_and_invoices.html",
-          "hash": "DgB1NF/w1Z9KMUGDLJL8uQ/k3/419bSH8aNLXAS9MyM="
+          "hash": "LeCPM2Kft/hcX9RL4OS7sKvoO4CuOcNpLd4S7tiHMiM="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/faq.html",
-          "hash": "qN3XEe8VhRtxN6m4q4DcejEJ7m+pmiZkvXTY3u8AsJs="
+          "hash": "bfq9KTj2mUtBwUDr5JnSPSedjxFmFYorv/g9TD60gy4="
         }
       },
       "is_incremental": false,
@@ -2231,7 +2231,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/overview.html",
-          "hash": "j1dmcfTt/08Dgy8N+Qn5Qr3+OLBxglqgCDAsAB0u+Ig="
+          "hash": "GoFaYJUDElJAAvS1m5JJ1KW/lSCi22FnmsCx1hr5aXQ="
         }
       },
       "is_incremental": false,
@@ -2255,7 +2255,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/usage_scenarios.html",
-          "hash": "6BxlcxU8MjdpE82MM4g9+lVg1N4H3y2D+/iQWQQDgD4="
+          "hash": "bWenTObsc3xbvfeiUm4cMP0oc7oaQTbAAz27kknU4sQ="
         }
       },
       "is_incremental": false,
@@ -2267,7 +2267,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/cash_management.html",
-          "hash": "3dXvWmiLj4Mh2L5T7jWODYabF/cpD8/M4U0/SdNMfoM="
+          "hash": "LfryTL+N92ahMt6WIDrUPY+t2y094u7Z0A/6c7Q9fCQ="
         }
       },
       "is_incremental": false,
@@ -2279,7 +2279,18 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/faq.html",
-          "hash": "uwp8zXiztHn/42mvO39RajXH6oxey+qU8PxESP39u9o="
+          "hash": "SwGQdqVmmKH0O1PYbaq7G+6Ff0pIAo+XVoftSzGzOJM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/GLcash.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/GLcash.png"
         }
       },
       "is_incremental": false,
@@ -2969,6 +2980,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/cash_journal2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/cash_journal2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "articles/cash_management/images/cash_payment001.png",
       "output": {
         "resource": {
@@ -3254,12 +3276,111 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/no.series.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/no.series.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/no.series2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/no.series2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/no.series3.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/no.series3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/no.series4.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/no.series4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/no.series5.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/no.series5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/source_code.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/source_code.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/source_code2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/source_code2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/source_code_setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/source_code_setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/source_code_setup2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/source_code_setup2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/cash_management/overview.md",
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/overview.html",
-          "hash": "NCOZ8GNJNRM8p/RAmbOQMT1AZcmtiSQ5waokE5NopU4="
+          "hash": "24ATJxGcZrDj+La/FcUYIe+MQksokpvvWjLiIth3F40="
         }
       },
       "is_incremental": false,
@@ -3283,7 +3404,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/usage_scenarios.html",
-          "hash": "VDKpz4NXi4FUqZxpQ3YMIqUxTTlzVvWcoTL3n7ZBt1w="
+          "hash": "Dt2NuQCdFYiTAYeK2RyZpkHoFlvK1H5hi2RBQfr53b8="
         }
       },
       "is_incremental": false,
@@ -3295,7 +3416,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/faq.html",
-          "hash": "FN2gCF+GPLdT+89YbWPX1N0MiCC1zP8ZzsZQsYFkqaw="
+          "hash": "G6IwnPB3KyzTz7VQPsfCaQTMqLDkFmCXLY2rNvaG0pA="
         }
       },
       "is_incremental": false,
@@ -3978,7 +4099,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/intrastat.html",
-          "hash": "fxq0LCZ6ZksFJ3u3SzYB4VCS3VznJ7NepxmVVHhMKUA="
+          "hash": "5bXkdubu1kl0zIjPFzzv3SLsAxUDwM4zZBWRjXWbzyI="
         }
       },
       "is_incremental": false,
@@ -3990,7 +4111,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/overview.html",
-          "hash": "yAkXozDk+orV9Jmfd+DYqO5UxLIFdQcBIhOAmJIRW/Q="
+          "hash": "iQM9U/qVGw0hYeyOkX3A++m6MaCXGx+WhEo2vtuzYbk="
         }
       },
       "is_incremental": false,
@@ -4014,7 +4135,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/usage_scenarios.html",
-          "hash": "SWU5M1vlNAKe2e9s12LWAt9i1tWhnc2TKboSx8Yu0pU="
+          "hash": "eIadgPe0ruekvag1o5Zi25KjFy7qooQ7JW+NkAn0UKw="
         }
       },
       "is_incremental": false,
@@ -4026,7 +4147,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/faq.html",
-          "hash": "ovV8qDGhOt+qxriT58yS8VePvunX8Fk/LTRz3sal1pw="
+          "hash": "N6hDshfQFTQpagyWO1yuFmioFfkuWTZ/Hiqjz/0sS8g="
         }
       },
       "is_incremental": false,
@@ -4192,7 +4313,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/latvian_language.html",
-          "hash": "Qlj++QnrFoWZdQJSVU70gb3Gmd/retvc6cwq2hvX9Pk="
+          "hash": "YMocsSK5fvzMKBDWLohvIwg2aEpVjYD9zoOWwgJDCOI="
         }
       },
       "is_incremental": false,
@@ -4204,7 +4325,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/overview.html",
-          "hash": "Wh/8MPq6gLul5dagPUfnkgqCKDkkDDH6Lyq65MrQ/Zs="
+          "hash": "bjMBVtHnapQmCGknjx74DrCQfqZ25pBs9VXfU+0mVhA="
         }
       },
       "is_incremental": false,
@@ -4216,7 +4337,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/promo.html",
-          "hash": "siDPaQ+jR/LEVSmin62ILwzqQx24XpOJDlCGja5QiYI="
+          "hash": "/qGzmmSco/iJoq+UvaYCDxuAFU2a/1muthYw9cM5s2I="
         }
       },
       "is_incremental": false,
@@ -4240,7 +4361,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/latvian_language/usage_scenarios.html",
-          "hash": "bpXm2q0Ph8QQGwJB//CaPVhO6NIsq2qVc/Kx2+liCAU="
+          "hash": "L8Rhx+IYdi+zOkUH3OWJ6uipK4R4yuITAp5de4Q4MP0="
         }
       },
       "is_incremental": false,
@@ -4252,7 +4373,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/support/customer_terms.html",
-          "hash": "iaGyqEMI47y9RWV++SaiuebE2ZASYjP28bUA4TcWO90="
+          "hash": "YlKQ/5AqmZ1kUCBjYc02X/zLgHcxoS+n56PAb0I0gH4="
         }
       },
       "is_incremental": false,
@@ -4264,7 +4385,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/support/privacy_statement.html",
-          "hash": "Jz+2jaa8H7o6/IX9TDjiyaN7cHPQMs8j43OcBe3dfaI="
+          "hash": "M9SMPLgY+g3zTNIeG2m7qPJ11bp2I6u/S4GTg2tMrrg="
         }
       },
       "is_incremental": false,
@@ -4288,7 +4409,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/faq.html",
-          "hash": "KFzP8XmCf9Hnf7yyGwcj0+qyt+bDtlGjR4JlMVcLf1s="
+          "hash": "rQp8A5lt48BQDAO0AVlGS4huUFi1gZAmukw195uvhLI="
         }
       },
       "is_incremental": false,
@@ -5400,7 +5521,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/overview.html",
-          "hash": "0rOFeXh1H6TBHk/J+uEdSiWbtXv4eBN07F8UGZMQeZs="
+          "hash": "7sxLMALcLxf6xBaVe3iSFWsWy/7Dfl3KcVcTUOzPbEQ="
         }
       },
       "is_incremental": false,
@@ -5412,7 +5533,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/promo.html",
-          "hash": "FuWlobBI0KTwp5tKPWe+JzXxfHdi/APwKHL6QEDjJo0="
+          "hash": "5NLm7S5ZbQ2MexIitblMqJsCztb0N+bSPm41Tq7Clgc="
         }
       },
       "is_incremental": false,
@@ -5436,7 +5557,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/usage_scenarios.html",
-          "hash": "JIDtZbPDHEz5PyArIFUUbs4dnaXGcAA1VrdDga1ZJ8o="
+          "hash": "gTpf3IlQWW91tS3M6RnF4OFkL88Hg9pZhFNFje4YvtU="
         }
       },
       "is_incremental": false,
@@ -5448,7 +5569,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/vat/vat.html",
-          "hash": "hbX5svsMLrhK4TuINuRrRIqhxV5zTUkU50FMovgVnSA="
+          "hash": "yGFSUW4pTQlX39u0E3he4xqwGrF6D6nTaFCyfpFdzco="
         }
       },
       "is_incremental": false,
@@ -5482,7 +5603,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "NOCRMd8G68/3i8zagOmPMIhYp9vI5Y4rPmyhOh9eIEw="
+          "hash": "U+GgUFugmjzG8x784xmjUVILmzv10ZI4QN98obfdBN4="
         }
       },
       "is_incremental": false,
@@ -5494,7 +5615,7 @@
       "output": {
         ".html": {
           "relative_path": "readme.html",
-          "hash": "S/25iJiVQ0Sb78mnrvxpkVW7gt1P4UFUu829vFKTdnc="
+          "hash": "o7D0Hz9mB6kPf/D/ZN6mUQhknip+0V9C7L4dUHZaM6c="
         }
       },
       "is_incremental": false,
