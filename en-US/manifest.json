@@ -2199,15 +2199,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "articles/cash_management/cash_management.md",
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/cash_management.html",
-          "hash": "/S1vVmPTRMc75ADQ4Zd1SwRzdR6U+gNUoYwv+/4L1Uw="
+          "hash": "lNyf4r/VZd+C2Yg3ykd/clK0VUh30K5BwIub8AL48KI="
         }
       },
       "is_incremental": false,
@@ -2223,6 +2220,17 @@
         ".html": {
           "relative_path": "articles/cash_management/faq.html",
           "hash": "8+CedBXBpsip778JzjNnGgTiPzbku3RfVNAcEzcE9IY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/GLcash_eng.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/GLcash_eng.png"
         }
       },
       "is_incremental": false,
@@ -2300,6 +2308,17 @@
       "output": {
         "resource": {
           "relative_path": "articles/cash_management/images/cash_bank006.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/cash_bank007.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/cash_bank007.png"
         }
       },
       "is_incremental": false,
@@ -2487,6 +2506,17 @@
       "output": {
         "resource": {
           "relative_path": "articles/cash_management/images/cash_journal003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/cash_journal2_eng.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/cash_journal2_eng.png"
         }
       },
       "is_incremental": false,
@@ -2817,6 +2847,105 @@
       "output": {
         "resource": {
           "relative_path": "articles/cash_management/images/cash_use_payment006.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/no.series2_eng.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/no.series2_eng.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/no.series3_eng.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/no.series3_eng.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/no.series4_eng.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/no.series4_eng.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/no.series5_eng.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/no.series5_eng.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/no.series_eng.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/no.series_eng.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/source_code_eng.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/source_code_eng.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/source_code_eng2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/source_code_eng2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/source_code_setup2_eng.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/source_code_setup2_eng.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/source_code_setup_eng.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/source_code_setup_eng.png"
         }
       },
       "is_incremental": false,

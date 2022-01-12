@@ -79,21 +79,28 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="get-started">Get started</h1>
 
+<h2 id="access-permission-sets">Access Permission Sets</h2>
+<p>Use of Latvian Cash Management Localization requires the following standard permission sets to be assigned for the user:</p>
+<ul>
+<li>D365 JOURNALS, EDIT</li>
+<li>D365 JOURNALS, POST</li>
+</ul>
 <h2 id="role-center">Role Center</h2>
-<p>In order to use Latvian Cash Management Localization, no specific role center is required, because the functionality can be accessed via search pane, whereas printout buttons are embedded inside ribbon under the tab ACTIONS.</p>
-<h2 id="configuration-package-import">Configuration package import</h2>
-<p>Basic necessary system setup for the use of Latvian Cash Management Localization is created, when applying the configuration package LVI.LVI.CASH  .</p>
+<p>In order to use Latvian Cash Management Localization, no specific role center is required, because the functionality can be accessed via the search pane, whereas printout buttons are embedded inside the ribbon under the tab ACTIONS.</p>
+<h2 id="configuration-package-import">Configuration Package Import</h2>
+<p>Basic necessary system setup for the use of Latvian Cash Management Localization is created, when the configuration package LVI.LVI.CASH is applied.</p>
 <ol>
-<li><p>Click on the button Search for Page or Report...
-<img src="images/cash_search.png" alt="alt"></p>
-</li>
-<li><p>Type Configuration Packages and select Configuration Packages from Lists
-<img src="images/cash_conf001.png" alt="alt"></p>
-</li>
-<li><p>Select LVI.LVI.CASH package from list of Config. Packages and press Apply Package.
-<img src="images/cash_conf002.png" alt="alt"></p>
-</li>
+<li>Click on the button <em>Search</em>...</li>
 </ol>
+<p><img src="images/cash_search.png" alt="alt"></p>
+<ol start="2">
+<li>Type <em>Configuration packages</em> and select the corresponding list:</li>
+</ol>
+<p><img src="images/cash_conf001.png" alt="alt"></p>
+<ol start="3">
+<li>Select the LVI.LVI.CASH package from the list of Configuration Packages and press the buttons <em>Process</em> - <em>Apply Package</em>.</li>
+</ol>
+<p><img src="images/cash_conf002.png" alt="alt"></p>
 <p>Configuration package ensures the following information:</p>
 <ol>
 <li>General Journal Template (KASESGRAM)</li>
@@ -103,108 +110,155 @@
 <li>No.Series (KIO, KZO)</li>
 <li>No.Series Lines (for KIO, KZO)</li>
 </ol>
-<h2 id="permissions-sets">Permissions Sets</h2>
-<p>Use of Latvian Cash Management Localization requires the following standard permission sets to be assigned for the user:</p>
-<ul>
-<li>D365 JOURNALS, EDIT</li>
-<li>D365 JOURNALS, POST</li>
-</ul>
 <h2 id="pre-requisites">Pre-requisites</h2>
-<p>The following information should be completed after importing configuration package:</p>
+<p>The following information should be completed after importing the configuration package:</p>
 <ul>
-<li>Create employee card, who is responsible for Petty Cash</li>
-<li>Complete Company Information</li>
-<li>Create Bank Account Card per each Petty Cash location
-Proceed with following detailed steps:</li>
-</ul>
-<ol>
-<li><p>Click on the button Search for Page or Report...
-<img src="images/cash_search.png" alt="alt"></p>
+<li><p>Create employee card for the employee who is responsible for petty cash</p>
 </li>
-<li><p>Type Employee and select Employees from Pages and Tasks
-<img src="images/cash_emp001.png" alt="alt"></p>
-</li>
-<li><p>Create new employees who is responsible for petty cash transactions:
-<img src="images/cash_emp003.png" alt="alt"></p>
-</li>
-<li><p>Complete No., Name, Surname, Job Title fields
-<img src="images/cash_emp002.png" alt="alt"></p>
-</li>
-<li><p>Click on the button Search for Page or Report...
-<img src="images/cash_search.png" alt="alt"></p>
-</li>
-<li><p>Type Company Information and select Company Information from Pages and Tasks
-<img src="images/cash_comp001.png" alt="alt"></p>
-</li>
-<li><p>Complete Company Information by entering:</p>
+<li><p>Complete the company information by entering:</p>
 <ul>
 <li>Name</li>
-<li>Address</li>
-<li>Post Code</li>
-<li>Country</li>
 <li>Registration No.</li>
-<li>VAT Registration No.</li>
 </ul>
 </li>
-</ol>
-<p><img src="images/cash_comp002.png" alt="alt"></p>
-<ol start="8">
-<li>Create New Bank Account Posting Group for Petty cash:
-You use bank account posting groups to create linkages between your bank accounts and the central financial statements in the general ledger.</li>
-</ol>
-<h2 id="to-set-up-bank-account-posting-groups">To set up bank account posting groups</h2>
-<p>a.	Click on the button Search for Page or Report...
-<img src="images/cash_search.png" alt="alt"></p>
-<p>b.	Enter Bank Account Posting Groups and then choose the related link.
-<img src="images/cash_bank001.png" alt="alt"></p>
-<p>c.	Press New to create a relevant bank account posting group.
-<img src="images/cash_bank002.png" alt="alt"></p>
-<p>d.	Enter the code for the group that you want to set up in the Code field. The code should be descriptive. You can use both numbers and letters. In the G/L Bank Account No. field, enter the desired account
-<img src="images/cash_bank003.png" alt="alt"></p>
-<ol start="9">
-<li>Complete Bank Account information (per each bank account separately)</li>
-</ol>
-<p>a.	Click on the button Search for Page or Report...
-<img src="images/cash_search.png" alt="alt"></p>
-<p>b.	Type Bank Accounts and select Bank Accounts from Pages and Tasks
-<img src="images/cash_bank004.png" alt="alt"></p>
-<p>c.	Press New, in order to create New Bank Account card per Petty Cash location
-<img src="images/cash_bank005.png" alt="alt"></p>
-<p>d.	Complete Bank Account Card information with Name, Address details
-<img src="images/cash_bank006.png" alt="alt"></p>
-<p>e.	Complete Bank Account Card information with Currency Code (if differs from Local Currency) and Bank Account Posting Group (specifies the asset account for cash transactions)<img src="images/cash_bank007.png" alt="alt"></p>
-<p>f.	Complete Bank Account Card information with following information:</p>
-<ol>
-<li>Account Type- select <em>Cash Desk</em></li>
-<li>Cashier No.- select an employee from the List of Employees, who is responsible for petty cash operations for this location</li>
-<li>Accountant No. - select an employee from the List of Employees, who holds the position of an accountant
-<img src="images/cash_bank008.png" alt="alt"></li>
-</ol>
+</ul>
 <h1 id="setup">Setup</h1>
-<h2 id="to-set-up-cash-book-journal-batches">To set up Cash Book Journal batches</h2>
+<h2 id="source-code-and-source-code-setup">Source Code and Source Code Setup</h2>
+<ol>
+<li>To create a new <em>Source code</em>, click on the button <em>Search</em>...</li>
+</ol>
+<p><img src="images/cash_search.png" alt="alt"></p>
+<ol start="2">
+<li>Type <em>Source codes</em> and select the corresponding list:</li>
+</ol>
+<p><img src="images/source_code_eng.png" alt="alt"></p>
+<ol start="3">
+<li>Create a new source code by filling in the fields <em>Code</em> (1) and <em>Description</em> (2).</li>
+</ol>
+<p><img src="images/source_code_eng2.png" alt="alt"></p>
+<ol start="4">
+<li><p>Close the list <em>Source Codes</em>. The code that was just created should be added in the <em>Source Code Setup</em>.</p>
+</li>
+<li><p>Click on the button <em>Search</em>...</p>
+</li>
+<li><p>Type <em>Source code setup</em> and select the corresponding list:</p>
+</li>
+</ol>
+<p><img src="images/source_code_setup_eng.png" alt="alt"></p>
+<ol start="7">
+<li>In the tab <em>General</em>, add the newly created source code in the field <em>Cash Book Journal</em>.</li>
+</ol>
+<p><img src="images/source_code_setup2_eng.png" alt="alt"></p>
+<h2 id="bank-account-posting-groups">Bank Account Posting Groups</h2>
+<ol>
+<li>Click on the button <em>Search</em>...</li>
+</ol>
+<p><img src="images/cash_search.png" alt="alt"></p>
+<ol start="2">
+<li>Enter <em>Bank Account Posting Groups</em> and then choose the related link.</li>
+</ol>
+<p><img src="images/cash_bank001.png" alt="alt"></p>
+<ol start="3">
+<li>Press <em>New</em> to create a new bank account posting group.</li>
+</ol>
+<p><img src="images/cash_bank002.png" alt="alt"></p>
+<ol start="4">
+<li>Enter the code for the group that you want to set up in the <em>Code</em> field, for instance, &quot;KASE_EUR&quot;. The code should be descriptive. You can use both numbers and letters. In the <em>G/L Bank Account No.</em> field, enter the desired G/L account.</li>
+</ol>
+<p><img src="images/cash_bank003.png" alt="alt"></p>
+<p>Close the list <em>Bank Account Posting Groups</em>.</p>
+<h2 id="bank-account-cards">Bank Account Cards</h2>
+<p>Complete Bank Account information (per each bank account separately).</p>
+<ol>
+<li>Click on the button <em>Search</em>...</li>
+</ol>
+<p><img src="images/cash_search.png" alt="alt"></p>
+<ol start="2">
+<li>Type <em>Bank Accounts</em> and select the corresponding list from the Pages and Tasks.</li>
+</ol>
+<p><img src="images/cash_bank004.png" alt="alt"></p>
+<ol start="3">
+<li>Press <em>New</em> in order to create a new Bank Account Card for each cash desk.</li>
+</ol>
+<p><img src="images/cash_bank005.png" alt="alt"></p>
+<ol start="4">
+<li>Complete the Bank Account Card information by adding the Name and Address details. The Number (<em>No.</em>) is added automatically from the number series list, but if necessary it can be also created manually.</li>
+</ol>
+<p><img src="images/cash_bank006.png" alt="alt"></p>
+<ol start="5">
+<li>Complete the Bank Account Card information with the <em>Currency Code</em> (if the currency differs from the local currency) and <em>Bank Account Posting Group</em> (specifies the asset account for cash transactions).</li>
+</ol>
+<p><img src="images/cash_bank007.png" alt="alt"></p>
+<div class="TIP">
+<h5>Tip</h5>
+<p><strong>If more than one currency is necessary, a separate cash desk for each of them should be created!</strong></p>
+</div>
+<ol start="6">
+<li>Complete the Bank Account Card information with the following information:</li>
+</ol>
+<ul>
+<li>Account Type - select <em>Cash Desk</em></li>
+<li>Cashier No. - select an employee from the List of Employees, who is responsible for petty cash operations for this location</li>
+<li>Accountant No. - select an employee from the List of Employees, who holds the position of an accountant</li>
+</ul>
+<p><img src="images/cash_bank008.png" alt="alt"></p>
+<h2 id="number-series">Number Series</h2>
+<p>To automatically add the numbers to the Cash Income Orders and Cash Payment Orders, the number series should be created.</p>
+<ol>
+<li>Click on the button <em>Search</em>...</li>
+</ol>
+<p><img src="images/cash_search.png" alt="alt"></p>
+<ol start="2">
+<li>Type <em>No. Series</em> and select the corresponding list from the Pages and Tasks.</li>
+</ol>
+<p><img src="images/no.series_eng.png" alt="alt"></p>
+<ol start="3">
+<li>Click on <em>New</em>.</li>
+</ol>
+<p><img src="images/no.series2_eng.png" alt="alt"></p>
+<ol start="4">
+<li>Fill in the fields <em>Code</em> (1), <em>Description</em> (2), and click on the field <em>Starting No.</em> (3). A new window will open; it will be possible to choose the appropriate format for the new number series.</li>
+</ol>
+<p><img src="images/no.series3_eng.png" alt="alt"></p>
+<ol start="5">
+<li>In the No. Series Lines menu, it is possible to choose the <em>Starting Date</em> for the number series, <em>Starting No.</em>, <em>Ending No.</em> and other settings.</li>
+</ol>
+<p><img src="images/no.series4_eng.png" alt="alt"></p>
+<ol start="6">
+<li>If it is required that the numbers are assigned automatically, indicate it in the field <em>Default Nos.</em></li>
+</ol>
+<p><img src="images/no.series5_eng.png" alt="alt"></p>
+<h2 id="cash-book-journal-batches">Cash Book Journal batches</h2>
 <p>Cash Income Orders and Cash Payment Orders require to have separate Cash Book Journal batches.</p>
 <ol>
-<li><p>Click on the button Search for Page or Report...
-<img src="images/cash_search.png" alt="alt"></p>
-</li>
-<li><p>Type Cash Book Journals and select Cash Book Journals from Tasks
-<img src="images/cash_journal001.png" alt="alt"></p>
-</li>
-<li><p>Open Cash Book Journal batches
-<img src="images/cash_journal002.png" alt="alt"></p>
-</li>
-<li><p>Review New Cash Book Journal Batches created for Cash Income Orders (IENEMUMI) and Cash Payment Orders (IZDEVUMI)</p>
-</li>
-<li><p>Complete Name, Description of new Cash Book Journal Batches</p>
-</li>
-<li><p>Review that Balancing Account Type is set to Bank Account,</p>
-</li>
-<li><p>Set Balancing Account No. to Bank Account used for Petty Cash (See Pre-requisites)</p>
-</li>
-<li><p>Set No. Series per each Cash Book Journal Batch
-<img src="images/cash_journal003.png" alt="alt"></p>
-</li>
+<li>Click on the button <em>Search</em>...</li>
 </ol>
+<p><img src="images/cash_search.png" alt="alt"></p>
+<ol start="2">
+<li>Type <em>Cash Book Journals</em> and select the corresponding task.</li>
+</ol>
+<p><img src="images/cash_journal001.png" alt="alt"></p>
+<ol start="3">
+<li>Open the tab <em>Batch Name</em>.</li>
+</ol>
+<p><img src="images/cash_journal002.png" alt="alt"></p>
+<ol start="4">
+<li>RCreate two Cash Book Journal Batches - one for Cash Income Orders (for instance, KIO) and one for Cash Payment Orders (for instance, KZO).</li>
+</ol>
+<p>Mandatory fields:</p>
+<ul>
+<li>Name (1)</li>
+<li>Description (2)</li>
+<li>Bal. Account Type (3) - Bank Account</li>
+<li>Bal. Account No. (4) - KASE</li>
+<li>No. Series</li>
+</ul>
+<p><img src="images/cash_journal2_eng.png" alt="alt"></p>
+<div class="TIP">
+<h5>Tip</h5>
+<p><strong>If the company has more than one cash desk, a separate journal template can be created for each one of them (General Journal Templates). For each cash desk the necessary batches can be added (<em>Related</em> - <em>Template</em> - <em>Batches</em>).</strong></p>
+</div>
+<p><img src="images/GLcash_eng.png" alt="alt"></p>
 <h1 id="how-to-use">How to use</h1>
 <h2 id="how-to-use-cash-book-journal">How to use: Cash Book Journal</h2>
 <p>LV Cash Book Journal is used for entering, posting and printing Cash Income Orders and Cash Payment Orders.
