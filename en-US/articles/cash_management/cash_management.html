@@ -292,50 +292,37 @@ Fill the journal:</p>
 <li>Bal. Account No. - number of Cash Desk, fills in automatically, if it is previously added to the batch</li>
 </ul>
 <h2 id="how-to-use-create-cash-payment-order">How to use: Create Cash Payment Order</h2>
-<p>Latvian Cash Management Localization ensures possibility to create Cash Payment Orders in Dynamics 365 Business Central and print them, in order to be compliant with Latvia local legislation requirements.</p>
-<p><strong>Purpose</strong>: Petty Cash Payment Orders require to be registered in the system with ability to provide a correct printout per transaction requested.</p>
-<p><strong>Available for printing from</strong>: reports can be printed from Cash Book Journals. Particular Print button Cash Payment Order is located in the Ribbon under the TAB Process.
-<img src="images/cash_payment001.png" alt="alt"></p>
-<p>Also Cash Payment Order can be printed for a posted transaction, using report Cash Payment Order from Reports and Analysis with a filter of Bank Ledger Entry.
-<img src="images/cash_payment002.png" alt="alt"></p>
-<p><strong>Pre-requisites</strong>: Cashier and Accountant need to be specified in Bank Account Card; Bank Account Card should have correct Bank Posting Group assigned; fields Person Identity No. and Person Identity Doc. No. fields are mandatory to be completed.
-In Cash Book Journal batch IZDEVUMI a line needs to be created:</p>
-<ul>
-<li>Document Type: Payment</li>
-<li>Amount: Positive
-<img src="images/cash_payment003.png" alt="alt"></li>
-</ul>
-<p><strong>Printing Options</strong>: the following printing options are available for this printout:</p>
-<ul>
-<li>Print Received Information in words – when selected, the amount in words is printed next to section Received of the report</li>
-</ul>
-<p>Also a filter on Gen. Journal Line can be applied, when creating the report from Cash Book Journal.
-<img src="images/cash_payment004.png" alt="alt"></p>
-<p>When the printing options are selected, it is possible to use standard Send To…, Print, Preview functions.
-<img src="images/cash_payment005.png" alt="alt"></p>
+<p>Latvian Cash Management Localization ensures a possibility to create Cash Payment Orders in Dynamics 365 Business Central and print them, in order to be compliant with the Latvian local legislation requirements.</p>
+<p><strong>Purpose</strong>: Petty Cash Payment Orders are required to be registered in the system with ability to provide a correct printout per transaction requested.</p>
+<p><strong>Available for printing from</strong>: Reports can be printed from the Cash Book Journals by opening <em>Post/Print</em> - <em>Print Cash Payment Order</em>.</p>
+<p><img src="images/cash_payment001.png" alt="alt"></p>
+<p><strong>Pre-requisites</strong>: A Cashier and an Accountant need to be specified in the Bank Account Card. It is described in the chapter <a href="https://elva-d365-bc.github.io/localization/en-US/articles/cash_management/cash_management.html#how-to-use-cash-book-journal">How to use: Cash Book Journal</a>.</p>
+<p><img src="images/cash_payment003.png" alt="alt"></p>
+<p>In order to print out the Cash Payment Order click on <em>Post/Print</em> - <em>Print Cash Payment Order</em> and choose the appropriate activity between Send to..., Print, Preview, and Cancel.</p>
+<p><img src="images/cash_payment004.png" alt="alt"></p>
+<p><img src="images/cash_payment005.png" alt="alt"></p>
+<p>Also Cash Payment Order can be printed for a posted transaction, using the report Cash Payment Order from Reports and Analysis.</p>
+<p><img src="images/cash_payment002.png" alt="alt"></p>
+<p>Creating this report, it is mandatory to indicate the Entry No. or the Document No. After it is done, choose the appropriate activity between Send to..., Print, Preview, and Cancel.</p>
 <h2 id="how-to-use-create-cash-income-order">How to use: Create Cash Income Order</h2>
-<p>Latvian Cash Management Localization ensures possibility to create Cash Income Orders in Dynamics 365 Business Central and print them, in order to be compliant with Latvia local legislation requirements.</p>
-<p><strong>Purpose</strong>: Petty Cash Income Orders require to be registered in the system with ability to provide a correct printout per transaction requested.</p>
-<p><strong>Available for printing from</strong>: reports can be printed from Cash Book Journals. Particular Print button Cash Income Order is located in the Ribbon under the TAB Process.
-<img src="images/cash_search.png" alt="alt">
-Also Cash Income Order can be printed for a posted transaction, using report Cash Income Order from Reports and Analysis.</p>
-<p><strong>Pre-requisites</strong>: Cashier and Accountant need to be specified in Bank Account Card; Bank Account Card should have correct Bank Posting Group assigned; fields Person Identity No. and Person Identity Doc. No. fields are mandatory to be completed.
-In Cash Book Journal batch IENEMUMI a line needs to be created</p>
-<pre><code>-   Document Type: Payment
--   Amount: Negative
-</code></pre>
+<p>Latvian Cash Management Localization ensures possibility to create Cash Income Orders in Dynamics 365 Business Central and print them, in order to be compliant with the Latvian local legislation requirements.</p>
+<p><strong>Purpose</strong>: Petty Cash Income Orders are required to be registered in the system with ability to provide a correct printout per transaction requested.</p>
+<p><strong>Available for printing from</strong>: Reports can be printed from the Cash Book Journals by opening <em>Post/Print</em> - <em>Print Cash Income Order</em>.</p>
+<p><img src="images/cash_payment006.png" alt="alt"></p>
+<p><strong>Pre-requisites</strong>:  A Cashier and an Accountant need to be specified in the Bank Account Card. It is described in the chapter <a href="https://elva-d365-bc.github.io/localization/en-US/articles/cash_management/cash_management.html#how-to-use-cash-book-journal">How to use: Cash Book Journal</a>.</p>
 <p><img src="images/cash_income003.png" alt="alt"></p>
-<p><strong>Output Options</strong>: the following printing options are available for this printout- not available.
-A filter on Gen. Journal Line can be applied, when creating the report from Cash Book Journal.
-<img src="images/cash_income004.png" alt="alt"></p>
-<p>When the printing options are selected, it is possible to use standard Send To…, Print, Preview functions.
-<img src="images/cash_income005.png" alt="alt"></p>
+<p>In order to print out the Cash Income Order click on <em>Post/Print</em> - <em>Print Cash Income Order</em> and choose the appropriate activity between Send to..., Print, Preview, and Cancel.</p>
+<p><img src="images/cash_income004.png" alt="alt"></p>
+<p><img src="images/cash_income005.png" alt="alt"></p>
+<p>Also Cash Income Order can be printed for a posted transaction, using the report Cash Income Order from Reports and Analysis.</p>
+<p><img src="images/cash_payment007.png" alt="alt"></p>
+<p>Creating this report, it is mandatory to indicate the Entry No. or the Document No. After it is done, choose the appropriate activity between Send to..., Print, Preview, and Cancel.</p>
 <h2 id="how-to-use-print-cash-book">How to use: Print Cash Book</h2>
-<p>Latvian Cash Management Localization ensures possibility to register Cash Income Orders and Cash Payment Orders in Dynamics 365 Business Central and at the end of the period show all particular petty cash transactions in one report- Cash Book in order to be compliant with Latvia local legislation requirements.</p>
-<p><strong>Purpose</strong>: Cash Book report shows all petty cash transactions per period.<br>
-Available for printing from: reports can be printed from Cash Book Journals. Particular Print button Cash Payment Order is located in the Ribbon under the TAB Process.</p>
-<p><strong>Available for printing from</strong>:
-Cash Book can be printed for a posted transactions, using report Book from Reports and Analysis.</p>
+<p>Latvian Cash Management Localization ensures a possibility to register the Cash Income Orders and the Cash Payment Orders in Dynamics 365 Business Central and at the end of the period show all particular petty cash transactions in one report - the Cash Book - in order to be compliant with the Latvian local legislation requirements.</p>
+<p><strong>Purpose</strong>: Cash Book report shows all petty cash transactions per period fot the chosen Bank Account with the type Cash Desk.<br>
+Available for printing from: reports can be printed from the Cash Book Journals. Particular <em>Print</em> button Cash Payment Order is located in the Ribbon under the TAB <em>Process</em>.</p>
+<p><strong>Available for printing from</strong>:</p>
+<p>Cash Book can be printed for a posted transactions, using report Book from Reports and Analysis.</p>
 <p><img src="images/cash_search.png" alt="alt">
 <img src="images/cash_book001.png" alt="alt"></p>
 <p><strong>Pre-requisites</strong>: Bank Account used for Petty Cash has Cash Income or Cash Payment Orders posted in specific selected period.</p>

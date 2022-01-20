@@ -2204,7 +2204,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/cash_management/cash_management.html",
-          "hash": "uSOahVXObsKQ2ngGyelolr/DvkWXpPTPs51ZH4SAGdQ="
+          "hash": "t2UKZHF+8TRcICVletiO8ZPwBk3oDy/N/bXmFCWDl8Y="
         }
       },
       "is_incremental": false,
@@ -2572,6 +2572,28 @@
       "output": {
         "resource": {
           "relative_path": "articles/cash_management/images/cash_payment005.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/cash_payment006.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/cash_payment006.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/cash_management/images/cash_payment007.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/cash_management/images/cash_payment007.png"
         }
       },
       "is_incremental": false,
