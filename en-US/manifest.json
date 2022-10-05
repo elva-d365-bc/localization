@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/base_and_invoices.html",
-          "hash": "3MCIWaZXBAvsrEwmqTgLWwG694c2faQAsAnlKfHJMiA="
+          "hash": "QcdXYgh5sCCDoc07SYjTIiA5vWMxiHC3k6U00xX8GvQ="
         }
       },
       "is_incremental": false,
@@ -452,6 +452,94 @@
       "output": {
         "resource": {
           "relative_path": "articles/base_and_invoices/images/Salidzin_9_ENG.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzinpieg_11_ENG.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzinpieg_11_ENG.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzinpieg_12_ENG.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzinpieg_12_ENG.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzinpieg_1_ENG.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzinpieg_1_ENG.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzinpieg_2_ENG.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzinpieg_2_ENG.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzinpieg_3_ENG.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzinpieg_3_ENG.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzinpieg_4_ENG.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzinpieg_4_ENG.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzinpieg_6_ENG.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzinpieg_6_ENG.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzinpieg_8_ENG.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzinpieg_8_ENG.png"
         }
       },
       "is_incremental": false,
