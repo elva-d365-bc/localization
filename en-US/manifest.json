@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/base_and_invoices.html",
-          "hash": "OKe3S4JRD2W/P5y6MY7NVRvgPmO/5Vr2asuAelM+TtM="
+          "hash": "dUgXlRQEs6LOe24u2cJHLRRMLOuOdDl0rUzm+8KpYsg="
         }
       },
       "is_incremental": false,
@@ -320,6 +320,138 @@
       "output": {
         "resource": {
           "relative_path": "articles/base_and_invoices/images/GettingStarted_Search_001.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzin_10.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzin_10.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzin_11_ENG.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzin_11_ENG.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzin_12_ENG.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzin_12_ENG.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzin_13.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzin_13.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzin_1_ENG.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzin_1_ENG.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzin_2_ENG.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzin_2_ENG.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzin_3_ENG.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzin_3_ENG.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzin_4_ENG.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzin_4_ENG.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzin_6_ENG.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzin_6_ENG.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzin_7_ENG.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzin_7_ENG.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzin_8_ENG.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzin_8_ENG.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/Salidzin_9_ENG.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/Salidzin_9_ENG.png"
         }
       },
       "is_incremental": false,
