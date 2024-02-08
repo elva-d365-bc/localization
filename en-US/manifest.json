@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/base_and_invoices.html",
-          "hash": "LLKW1+LK0SKFdTv54Vf9G+RzJ60wYcfLQ1nvxJVdefQ="
+          "hash": "DL7Jt24tZ7rwiFh386/a49RCmmrgkBWCjrmgFKGKgu0="
         }
       },
       "is_incremental": false,
@@ -1376,6 +1376,17 @@
       "output": {
         "resource": {
           "relative_path": "articles/base_and_invoices/images/To_056.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/To_056_1en.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/To_056_1en.png"
         }
       },
       "is_incremental": false,

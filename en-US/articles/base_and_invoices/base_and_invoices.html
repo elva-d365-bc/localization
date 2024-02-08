@@ -601,6 +601,11 @@ In order to use the functionality, the following steps are required:</p>
 <p><strong>Pre-requisites</strong>:</p>
 <ul>
 <li>Customer should have at least one transaction;</li>
+<li>In order for the amounts from the G/L Accounts to appear in the report - Customer Balance Reconciliation, the fields <em>Source Type</em> and <em>Source No.</em> should be filled in the General Ledger entries.</li>
+</ul>
+<p><img src="images/To_056_1en.png" alt="alt"></p>
+<p>To show the amounts that are related to the vendor, the vendor and customer cards have to be linked with one Contact card.</p>
+<ul>
 <li>The table <em>Report Selection - Sales</em> should be set up:</li>
 </ul>
 <ol>
@@ -615,6 +620,8 @@ In order to use the functionality, the following steps are required:</p>
 <li>Fill in the lines by choosing the <em>Report ID</em> - 70151367</li>
 </ol>
 <p><img src="images/Salidzin_3_ENG.png" alt="alt"></p>
+<p><strong>Restrictions</strong></p>
+<p>The amounts from the G/L Accounts are showed only in the local currency.</p>
 <p><strong>Printing Options</strong>: the following printing options are available for this printout:</p>
 <ul>
 <li>Reconcile Date – set date for balance reconciliation</li>
@@ -628,6 +635,16 @@ In order to use the functionality, the following steps are required:</p>
 Customer Balance Reconciliation can be prepared by applying customer filter.</li>
 </ul>
 <p><img src="images/To_057.png" alt="alt"></p>
+<ul>
+<li>Electronic document - indicate if the answer is expected to be received electornically and it is not necessary to include the signature lines in the document.</li>
+</ul>
+<p><strong>Prepayments</strong></p>
+<ul>
+<li>G/L account filter - indicate the G/L account numbers that you want to show to the customer in the Customer Balance Reconciliation document. The total value of the G/L entries from the indicated G/L accounts (-s) for which the <em>Source Type</em> is Customer, and the <em>Source No.</em> matches with the Customer No. will be displayed (and the Vendor No., if the option <em>Include Vendor Debts</em> is turned on).  This field is the main indiciation that the prepayments have to be shown in the document;</li>
+<li>Include VAT - turn on, if you want the VAT amounts related to the G/L Entries to be added to the Customer Balance Reconciliation document;</li>
+<li>Print Prepayment Details - indicate if you want to see a detailed view from the G/L Entries related to the prepayments in the appendix;</li>
+<li>Prepayment Details From Date - if the option <em>Print Prepayment Details</em> is turned on, use this field to indicate from which date you want to see the detailed view. You will see the detailed view of the transactions starting from this date to the date indicated in the field <em>Reconcile Date</em>.</li>
+</ul>
 <h4 id="sending">Sending</h4>
 <p>The reconciliation statement can be sent to the customer's e-mail address.</p>
 <h5 id="setup-1">Setup</h5>
