@@ -767,17 +767,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/base_and_invoices/images/Thumbs.db",
-      "output": {
-        "resource": {
-          "relative_path": "articles/base_and_invoices/images/Thumbs.db"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "articles/base_and_invoices/images/To_001.png",
       "output": {
         "resource": {
@@ -2458,17 +2447,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/cash_management/images/Thumbs.db",
-      "output": {
-        "resource": {
-          "relative_path": "articles/cash_management/images/Thumbs.db"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "articles/cash_management/images/cash_bank001.png",
       "output": {
         "resource": {
@@ -3243,17 +3221,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/intrastat/images/Thumbs.db",
-      "output": {
-        "resource": {
-          "relative_path": "articles/intrastat/images/Thumbs.db"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "articles/intrastat/images/intrastat_comp001.png",
       "output": {
         "resource": {
@@ -3944,17 +3911,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/latvian_language/images/Thumbs.db",
-      "output": {
-        "resource": {
-          "relative_path": "articles/latvian_language/images/Thumbs.db"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "articles/latvian_language/images/Use_001.png",
       "output": {
         "resource": {
@@ -4199,17 +4155,6 @@
         ".html": {
           "relative_path": "articles/vat/faq.html",
           "hash": "SCy0Nf4Lww1ib6Rm+raF3CPZ+MscsH7krLY+8v6hQUI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "articles/vat/images/Thumbs.db",
-      "output": {
-        "resource": {
-          "relative_path": "articles/vat/images/Thumbs.db"
         }
       },
       "is_incremental": false,
