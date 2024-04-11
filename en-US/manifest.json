@@ -13,6 +13,194 @@
       "is_incremental": false
     },
     {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_00.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_00.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_003.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_004.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_004.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_010.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_010.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_020.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_020.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_021.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_021.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_022.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_022.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_030.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_030.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_031.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_031.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_040.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_040.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_050.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_050.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_051.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_051.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_052.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_052.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_060.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_060.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_061.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_061.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Setup/localization_setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Setup/localization_setup.html",
+          "hash": "NInTpEEiBzJQW3k30Y4lQzIvoYj4lbXS/BUzlJ1y15c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/base_and_invoices/base_and_invoices.md",
       "output": {
@@ -5219,7 +5407,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "3Y1S18WUxrZnNkfTUhC/XFRBvaE08eayJzekeLFwclQ="
+          "hash": "wmQeLNM+OENCI6T+Gh0MY4X94bhznNB89bwqfr+6P+E="
         }
       },
       "is_incremental": false,
@@ -5264,7 +5452,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 26,
+          "total_file_count": 27,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
