@@ -13,6 +13,161 @@
       "is_incremental": false
     },
     {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_002_LV.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_002_LV.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_003_LV.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_003_LV.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_010_LV.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_010_LV.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_020_LV.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_020_LV.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_021_LV.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_021_LV.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_022_LV.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_022_LV.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_023_LV.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_023_LV.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_030_LV.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_030_LV.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_041_LV.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_041_LV.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_050_LV.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_050_LV.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_060_LV.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_060_LV.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_061_LV.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_061_LV.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Setup/images/Wizard_070_LV.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Setup/images/Wizard_070_LV.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Setup/localization_setup.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Setup/localization_setup.html",
+          "hash": "uAZDf1lP7TuBj58GMnlKA1ygWZecUGrVpxpO0GkkycI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/base_and_invoices/base_and_invoices.md",
       "output": {
@@ -5779,7 +5934,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "2ZfyuGJsCxDFc24Ys4+Sxj7qKrMAB5Xa9oAUQxnyAzg="
+          "hash": "OP+9Az/GdXT93aMaoGaJjkFxjcbgLkvTz1lZxNLjKZ4="
         }
       },
       "is_incremental": false,
@@ -5824,7 +5979,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 26,
+          "total_file_count": 27,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
