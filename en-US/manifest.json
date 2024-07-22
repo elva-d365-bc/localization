@@ -3772,6 +3772,171 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_new0001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_new0001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_new001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_new001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_new0010.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_new0010.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_new0011.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_new0011.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_new0012.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_new0012.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_new0013.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_new0013.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_new0014.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_new0014.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_new003.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_new003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_new004.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_new004.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_new005.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_new005.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_new006.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_new006.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_new007.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_new007.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_new008.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_new008.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_new009.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_new009.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_new_002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_new_002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "articles/intrastat/images/intrastat_purchase001.png",
       "output": {
         "resource": {
@@ -4058,6 +4223,21 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/intrastat/intrastat_new.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intrastat/intrastat_new.html",
+          "hash": "p400U7B/CM6rMb+gi8tuNClf1WosMztr/foq+PkvTN0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/intrastat/overview.md",
       "output": {
@@ -4075,7 +4255,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/toc.html",
-          "hash": "HLUnQErgpCXk0egoQTwIRcPYLf3/8ob2REnHqm+NPHo="
+          "hash": "zb0XsqZU8B/+DiB+C9rWKNTMn5EhbM2JPuW3SoHu/6c="
         }
       },
       "is_incremental": false,
@@ -5452,7 +5632,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 27,
+          "total_file_count": 28,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
