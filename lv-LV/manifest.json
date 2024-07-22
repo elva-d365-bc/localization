@@ -4613,15 +4613,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "articles/intrastat/intrastat_new.md",
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/intrastat_new.html",
-          "hash": "ouBOkzriKu2I4WpTdidGBczF7pqkPuI/UUbnF5y3Rik="
+          "hash": "NtMgqKhgrO4lovRa3CYneQQ3eYt/wMCBUvD9wSqh0x0="
         }
       },
       "is_incremental": false,
@@ -4645,7 +4642,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/toc.html",
-          "hash": "HLUnQErgpCXk0egoQTwIRcPYLf3/8ob2REnHqm+NPHo="
+          "hash": "qNphXNrr6SlEea24s9gapUnYLa6Js7rJf9lCu0ts79k="
         }
       },
       "is_incremental": false,
