@@ -4223,15 +4223,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Conceptual",
       "source_relative_path": "articles/intrastat/intrastat_new.md",
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/intrastat_new.html",
-          "hash": "p400U7B/CM6rMb+gi8tuNClf1WosMztr/foq+PkvTN0="
+          "hash": "qflGKCo3JTWPxApYpg8Agz4YIU4Z0Sq/wOIf3opu59M="
         }
       },
       "is_incremental": false,
