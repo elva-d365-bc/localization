@@ -3893,6 +3893,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "articles/intrastat/images/intrastat_new0066.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/intrastat/images/intrastat_new0066.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "articles/intrastat/images/intrastat_new007.png",
       "output": {
         "resource": {
@@ -4228,7 +4239,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intrastat/intrastat_new.html",
-          "hash": "qflGKCo3JTWPxApYpg8Agz4YIU4Z0Sq/wOIf3opu59M="
+          "hash": "FIC5gJV5xv9kO9WwkLwDyy3r+oG4zggIexQEi7L8ybI="
         }
       },
       "is_incremental": false,
