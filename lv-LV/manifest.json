@@ -3776,6 +3776,93 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/e_document/e_document.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/e_document/e_document.html",
+          "hash": "rh1LdAU4ofH2o3TpX1sNL/42upo9UflrGLHVsSNTn5s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/e_document/e_document_eadrese.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/e_document/e_document_eadrese.html",
+          "hash": "RHqvF+nHwVGCDogh4wsLzBYfFszypRhy05HQEoEZ5Y4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/e_document/e_document_unified.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/e_document/e_document_unified.html",
+          "hash": "9WQ91mPEXHCsi/VIxDP7t0WO1ZGqi1u3uJ5Y3BdxU0E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/e_document/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/e_document/faq.html",
+          "hash": "XKyO4EfjHBw2ONvvtTC/Ga8ZHI1sbvq4W/lkfor8GTE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/e_document/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/e_document/overview.html",
+          "hash": "e35EcRK1kN2pnR2TvELn+NYX0b3oio78JIo51ewN8ho="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/e_document/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/e_document/toc.html",
+          "hash": "AKufNSNZOaMbmMOV8aSmJV7C8M/qLLPpbC3duJcGt5U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "include-not-found"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/e_document/usage_scenarios.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/e_document/usage_scenarios.html",
+          "hash": "+78bcNgx0dlp5akBGUSfL39RShmjSVqaNu5T3NDoneM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/intrastat/faq.md",
       "output": {
         ".html": {
@@ -6111,7 +6198,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "OP+9Az/GdXT93aMaoGaJjkFxjcbgLkvTz1lZxNLjKZ4="
+          "hash": "c2jdnGIbDXjmkm0pRRQIuaeQXKhy/ByXLtcuaOEdjXg="
         }
       },
       "is_incremental": false,
@@ -6135,7 +6222,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "IJdLJE6KH4PhMz5l0oKhUma4LNVDVw//AZ05Phc4xAc="
+          "hash": "YUiDhekq2X2l3fymYosIEl/ZkIpztDG3MBRy+M7s9jw="
         }
       },
       "is_incremental": false,
@@ -6156,7 +6243,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 28,
+          "total_file_count": 34,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
