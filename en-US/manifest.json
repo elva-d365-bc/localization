@@ -5698,15 +5698,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "50DaG7VBWKQ/tDWRaNFM+wYlzGTd8e5HwxkY9+Nfa+g="
+          "hash": "Yq6UgrbZ/ja4NEbCstBpOJsJHJJOwz6ju1kPN8Nxnc0="
         }
       },
       "is_incremental": false,
