@@ -32,7 +32,7 @@
   "articles/cash_management/overview.html": {
     "href": "articles/cash_management/overview.html",
     "title": "Pārskats | Latvian Localization",
-    "keywords": "Pārskats Latvian Cash Management Localization ir biznesa programmatūras risinājums, kas izstrādāts ELVA priekš uzņēmumiem, kas nodarbojas ar uzņēmējdarbību Latvijas Republikas teritorijā un veic maiņas naudas darījumus. Latvian Cash Management Localization ir pilnībā integrēta ar ELVA paplašinot funkcionalitāti un pielāgojoties vietējo normatīvo aktu un uzņēmējdarbības prasībām. Aplikācija dod iespēju tās lietotājiem: reģistrēt skaidras naudas darījumus, izmantojot Kases žurnālu; sagatavot un izdrukāt Kases ieņēmumu orderus; sagatavot un izdrukāt Kases izdevumu orderus; sagatavot un izdrukāt kases grāmatu izvēlētā pārskata periodā."
+    "keywords": "Pārskats Latvian Cash Management Localization ir biznesa programmatūras risinājums, kas izstrādāts ELVA priekš uzņēmumiem, kas nodarbojas ar uzņēmējdarbību Latvijas Republikas teritorijā un veic maiņas naudas darījumus. Latvian Cash Management Localization ir pilnībā integrēta ar Dynamics 365 Business Central paplašinot funkcionalitāti un pielāgojoties vietējo normatīvo aktu un uzņēmējdarbības prasībām. Aplikācija dod iespēju tās lietotājiem: reģistrēt skaidras naudas darījumus, izmantojot Kases žurnālu; sagatavot un izdrukāt Kases ieņēmumu orderus; sagatavot un izdrukāt Kases izdevumu orderus; sagatavot un izdrukāt kases grāmatu izvēlētā pārskata periodā."
   },
   "articles/cash_management/usage_scenarios.html": {
     "href": "articles/cash_management/usage_scenarios.html",
@@ -41,33 +41,18 @@
   },
   "articles/e_document/e_document.html": {
     "href": "articles/e_document/e_document.html",
-    "title": "Sākam lietot | Latvian Localization",
-    "keywords": "Sākam lietot Priekšnosacījumi Uzstādījumi"
-  },
-  "articles/e_document/e_document_eadrese.html": {
-    "href": "articles/e_document/e_document_eadrese.html",
-    "title": "Sākam lietot | Latvian Localization",
-    "keywords": "Sākam lietot Priekšnosacījumi Uzstādījumi"
-  },
-  "articles/e_document/e_document_unified.html": {
-    "href": "articles/e_document/e_document_unified.html",
-    "title": "Sākam lietot | Latvian Localization",
-    "keywords": "Sākam lietot Priekšnosacījumi Uzstādījumi"
+    "title": "Instrukcija | Latvian Localization",
+    "keywords": "Instrukcija Uzstādījumi E-dokumentu pakalpojumi Atveriet lapu E-dokumentu pakalpojumi , spiediet Jauns Aizpildiet E-dokumentu pakalpojuma kartīti: Kods Apraksts Dokumenta formāts -- norādiet PEPPOL BIS 3.0 Pakalpojumu integrācija -- izvēlieties e-rēķinu operatoru, kura pakalpojumus izmantosiet. Uz ekrāna parādīsies lūgums pārskatīt noteikumus un nosacījumus, iepazīstieties un spiediet Es piekrītu. Spiediet Pakalpojuma integrācijas uzstādījumi, aizpildiet šo lapu: Klienta API Key -- ievadiet e-rēķina operatora jūsu uzņēmumam piešķirto X-API-KEY API URL -- ievadiet pieslēguma adresi, ko norādījis e-rēķinu operators Pārliecinieties, ka savienojums ir izveidots, nospiežot Pārbaudīt savienojumu . Veiksmīga savienojuma gadījumā parādīsies paziņojums Pieslēgums ir OK. Ja savienojums nav veiksmīgs, pārbaudiet visus ievadītos parametrus un mēģiniet vēlreiz. Ja savienojumu nav izdevies izveidot, sazinieties ar savu apkalpotāju. Darbplūsma Izveidojiet darbplūsmu. Atveriet lapu Darbplūsmas , spiediet Jauna darbplūsma no veidnes. Izvēlieties veidni \"Nosūtīt uz vienu pakalpojumu\" E-dokumentu grupā. Darbplūsmas kartītes rindā laukā Atbilde nospiediet uz Send E-Document using setup . Norādiet iepriekšējā punktā izveidoto E-dokumenta pakalpojumu. Spiediet Labi Aktivizējiet Darbplūsmu. Dokumentu sūtīšanas profils Izveidojiet Dokumentu sūtīšanas profilu. Atveriet lapu Dokumentu sūtīšanas profils , spiediet Jauns. Aizpildiet Dokumenta sūtīšanas profilu: Kods Apraksts Elektroniskais dokuments -- Paplašināta e-dokumentu paka Elektronisko dokumentu pakalpojuma plūsmas kods -- norādiet iepriekšējā punktā izveidoto darbplūsmu Klienti Tiem klientiem, kuriem vēlaties nosūtīt e-rēķinus, izmantojot šo pakalpojumu, norādiet atbilstošo Dokumenta sūtīšanas profilu Klienta kartītes atbilstošajā laukā . Kā lietot? Priekšnosacījumi Veiksmīgai e-rēķinu sagatavošanai un nosūtīšanai nepieciešami šādi uzstādījumi: Uzņēmuma informācija -- jābūt aizpildītam laukam Bankas nodaļas kods, ievadiet šajā laukā bankas SWIFT kodu Valstis -- jābūt aizpildītam laukam ISO kods PVN kontējuma uzstādījumi -- jābūt aizpildītam laukam Nodokļu kategorija Mērvienības -- jābūt aizpildītam laukam Starptautiskā standarta kods Klientu kartiņās jābūt aizpildītiem laukiem: Reģistrācijas Nr. Adrese Pilsēta Pasta indekss Valsts/reģiona kods E-rēķinu nosūtīšana Aizpildiet pārdošanas rēķinu vai pasūtījumu kā parasti. E-rēķinu vajadzībām nepieciešams aizpildīt lauku Atsaucoties uz . Spiediet Grāmatot . Brīdī, kad rēķins būs iegrāmatos, notiks arī e-rēķina nosūtīšana. E-dokumenta nosūtīšanas statusu iespējams pārbaudīt lapā E-dokumenti, ar konkrētu rēķinu saistītam e-dokumentam var piekļūt arī no iegrāmatotā rēķina Saistītās -- E-dokuments -- Atvērt E-dokumentu E-rēķinu saņemšana Ja esat atzīmējuši E-dokumenta pakalpojumam Automātiskā importēšana, tad saskaņā ar norādīto laika intervālu e-rēķini tiks importēti Dynamics 365 Business Central. Ja automātiskā importēšana nav uzstādīta, e-rēķinus var saņemt nospiežot pogu Saņemt E-dokumentu pakalpojuma kartītē. Katram E-rēķinam tiek izveidots ieraksts tabulā E-dokumenti . Ja veiksmīgi notikusi piegādātāja un preču un pakalpojumu atpazīšana, būs izveidots iepirkuma rēķins vai izveidota sasaiste ar iepirkuma pasūtījumu atbilstoši uzstādījumiem piegādātāja kartītē. Iepirkuma dokumenta pielikumā būs pievienots rēķins PDF formātā."
   },
   "articles/e_document/faq.html": {
     "href": "articles/e_document/faq.html",
-    "title": "BUJ | Latvian Localization",
-    "keywords": "BUJ Vai ir nepieciešams specifisks Lomu centrs, lai varētu lietot aplikāciju? Lai varētu lietot Latvian E-Document Localization, specifisks Lomu centrs nav nepieciešams."
+    "title": "Biežāk uzdotie jautājumi | Latvian Localization",
+    "keywords": "Biežāk uzdotie jautājumi Vai uzņēmumam nepieciešams slēgt līgumu ar e-rēķinu operatoru, lai izmantotu šo risinājumu? Jā, lai izmantotu e-rēķina operatora pakalpojumus, jums nepieciešams noslēgt līgumu ar pakalpojuma sniedzēju."
   },
   "articles/e_document/overview.html": {
     "href": "articles/e_document/overview.html",
     "title": "Pārskats | Latvian Localization",
-    "keywords": "Pārskats Latvian E-Document Localization ir biznesa programmatūras risinājums, kas izstrādāts ELVA priekš uzņēmumiem, kas nodarbojas ar uzņēmējdarbību Latvijas Republikas teritorijā un izmanto E-Dokumentus. Latvian E-Document Localization ir pilnībā integrēta ar ELVA paplašinot funkcionalitāti un pielāgojoties vietējo normatīvo aktu un uzņēmējdarbības prasībām."
-  },
-  "articles/e_document/usage_scenarios.html": {
-    "href": "articles/e_document/usage_scenarios.html",
-    "title": "Key Usage Scenarios | Latvian Localization",
-    "keywords": "Key Usage Scenarios Walkthrough: How to set up Latvian E-Document Localization"
+    "keywords": "Pārskats Latvian E-Document Localization ir biznesa programmatūras risinājums, kas izstrādāts ELVA priekš uzņēmumiem, kas nodarbojas ar uzņēmējdarbību Latvijas Republikas teritorijā un izmanto E-Dokumentus. Latvian E-Document Localization ir pilnībā integrēta ar ELVA paplašinot funkcionalitāti un pielāgojoties vietējo normatīvo aktu un uzņēmējdarbības prasībām. Pārskats Latvian E-Document Localization ir biznesa programmatūras risinājums, kas izstrādāts ELVA priekš uzņēmumiem, kas nodarbojas ar uzņēmējdarbību Latvijas Republikas teritorijā un izmanto E-Dokumentus. Latvian E-Document Localization ir pilnībā integrēta ar Dynamics 365 Business Central, paplašinot funkcionalitāti un pielāgojoties vietējo normatīvo aktu un uzņēmējdarbības prasībām. Risinājums nodrošina e-rēķinu nosūtīšanu un saņemšanu, izmantojot šādu e-rēķinu operatoru pakalpojumus: Unifiedpost"
   },
   "articles/intrastat/faq.html": {
     "href": "articles/intrastat/faq.html",
