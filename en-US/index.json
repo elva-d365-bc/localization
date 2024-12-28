@@ -41,33 +41,18 @@
   },
   "articles/e_document/e_document.html": {
     "href": "articles/e_document/e_document.html",
-    "title": "Get started | Latvian Localization",
-    "keywords": "Get started Pre-requisites Setup"
-  },
-  "articles/e_document/e_document_eadrese.html": {
-    "href": "articles/e_document/e_document_eadrese.html",
-    "title": "Get started | Latvian Localization",
-    "keywords": "Get started Pre-requisites Setup"
-  },
-  "articles/e_document/e_document_unified.html": {
-    "href": "articles/e_document/e_document_unified.html",
-    "title": "Get started | Latvian Localization",
-    "keywords": "Get started Pre-requisites Setup"
+    "title": "Help | Latvian Localization",
+    "keywords": "Help Settings E-Document Services Open the E-Document Services page, click New Fill the E-Document Services card: Code Description Document Format: PEPPOL BIS 3.0 Service Integration: select the E-document Operator whose services you will use. A request to review the terms and conditions will appear on the screen, read them and click I accept . Click on Setup Service Integration Fill the card: Client API Key (X-API-KEY): enter the X-API-KEY assigned to your Company by the E-document Operator. API URL: enter the connection address provided by the E-document Operator. Make sure the connection is established by clicking Test Connection . If the connection is successful, the message Connection is Ok will appear. If the connection is not successful, check all the parameters you entered and try again. If the connection fails, contact your service provider. Workflows Create a workflow. Open the Workflows page, click New Workflow from Template . Choose Send to one service template in the E-Document section. In the Workflow card row Then Responses field, click Send E-Document using setup . Specify the E-Document Service created before. Click OK. Enable the Workflow. Document Sending Profiles Create a Document Sending Profile . Open the Document Sending Profiles page, click New . Fill the Document Sending Profile card: Code Description Electronic Document: Extended E-Document Service Flow Electronic Document Service Flow Code: Specify the Workflow created before. Customers For those Customers to whom you want to send E-Document using this E-document Service , specify the appropriate Document Sending Profiles in Customer`s Card field Document Sending Profile . How to use? Preconditions The following settings are required for successful creation and sending of E-Documents: Company Information: mandatory field Bank Branch No . Enter in this field SWIFT Code . Countries/Regions: the ISO Code must be filled in. VAT Posting Setup: the Tax Category must be filled in. Units of Measure: the International Standard Code must be filled in. The following settings in Customers cards must be filled in: Registration No. Address City Post Code Country/Region Code. Sending of E-Documents Create Sales Order or Sales Invoice as usual. For E-Document purposes, you must fill in the Your Reference field. Post the Sales Invoice (or Sales Order). At the same time the E-Document will be sent. All sent E-Documents are registered on page E-Documents. Posted Invoice E-Document`s Status can be found under functions: Related --> E-Document --> Open E-Document . Receiving of E-Documents If you have enabled Auto Import on E-Document Service page, then according to the specified time interval E-Documents will be imported in Dynamics 365 Business Central. If Auto Import is not enabled, then use the function Receive on E-Document Service page. All sent E-Documents are registered on page E-Documents . If the Supplier and goods and services have been successfully recognized, a Purchase Invoice will be created or a link to the Purchase Invoice will be created according to the settings in the Supplier`s card. The invoice in PDF format will be attached to the Purchase Invoice."
   },
   "articles/e_document/faq.html": {
     "href": "articles/e_document/faq.html",
     "title": "FAQ | Latvian Localization",
-    "keywords": "FAQ Is a specific Role Center required for use of your application? In order to use Latvian E-Document Localization, no specific role center is required."
+    "keywords": "FAQ Does a Company need to sign a Contract with an E-Document Operator to use this solution? Yes, to use the services of the E-Document Operator, you need to conclude a Contract with the service provider."
   },
   "articles/e_document/overview.html": {
     "href": "articles/e_document/overview.html",
     "title": "Overview | Latvian Localization",
-    "keywords": "Overview Latvian E-Document Localization is a business software solution developed by Elva Baltic for companies that carry out business transactions in Republic of Latvia and use E-Documents. Latvian E-Document Localization is fully integrated with ELVA by extending its functionality and tailoring it to meet the requirements of local legislation and local business requirements."
-  },
-  "articles/e_document/usage_scenarios.html": {
-    "href": "articles/e_document/usage_scenarios.html",
-    "title": "Key Usage Scenarios | Latvian Localization",
-    "keywords": "Key Usage Scenarios Walkthrough: How to set up E-Document"
+    "keywords": "Overview Latvian E-Document Localization is a business software solution developed by Elva Baltic for companies that carry out business transactions in Republic of Latvia and use E-Documents. Latvian E-Document Localization is fully integrated with Dynamics 365 Business Central by extending its functionality and tailoring it to meet the requirements of local legislation and local business requirements. The application enables sending and receiving e-invoices using the services of the following e-invoice operators: Unifiedpost"
   },
   "articles/intrastat/faq.html": {
     "href": "articles/intrastat/faq.html",

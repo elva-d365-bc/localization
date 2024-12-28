@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Get started | Latvian Localization </title>
+    <title>Help | Latvian Localization </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Get started | Latvian Localization ">
+    <meta name="title" content="Help | Latvian Localization ">
     <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -77,10 +77,80 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="get-started">Get started</h1>
+<h1 id="help">Help</h1>
 
-<h2 id="pre-requisites">Pre-requisites</h2>
-<h1 id="setup">Setup</h1>
+<h2 id="settings">Settings</h2>
+<p>E-Document Services</p>
+<p>Open the <em><strong>E-Document Services</strong></em> page, click <em><strong>New</strong></em>
+<img src="images/edoc_image001.png" alt="alt">
+Fill the <em><strong>E-Document Services</strong></em> card:</p>
+<ul>
+<li>Code</li>
+<li>Description</li>
+<li>Document Format: <strong>PEPPOL BIS 3.0</strong></li>
+<li>Service Integration: select the E-document Operator whose services you will use. A request to review the terms and conditions will appear on the screen, read them and click <em><strong>I accept</strong></em>.</li>
+</ul>
+<p><img src="images/edoc_image002.png" alt="alt"></p>
+<p>Click on <em><strong>Setup Service Integration</strong></em></p>
+<p><img src="images/edoc_image003.png" alt="alt"></p>
+<p>Fill the card:</p>
+<ul>
+<li>Client API Key (X-API-KEY): enter the X-API-KEY assigned to your Company by the E-document Operator.</li>
+<li>API URL: enter the connection address provided by the E-document Operator.</li>
+</ul>
+<p><img src="images/edoc_image004.png" alt="alt"></p>
+<p>Make sure the connection is established by clicking <em><strong>Test Connection</strong></em>. If the connection is successful, the message <em><strong>Connection is Ok</strong></em> will appear.</p>
+<p>If the connection is not successful, check all the parameters you entered and try again. If the connection fails, contact your service provider.</p>
+<h3 id="workflows">Workflows</h3>
+<p>Create a workflow. Open the <em><strong>Workflows</strong></em> page, click <em><strong>New Workflow
+from Template</strong></em>. Choose <em><strong>Send to one service</strong></em> template in the
+<em><strong>E-Document</strong></em> section.</p>
+<p>In the <em><strong>Workflow</strong></em> card row <em><strong>Then Responses</strong></em> field, click <em><strong>Send
+E-Document using setup</strong></em>.</p>
+<p><img src="images/edoc_image005.png" alt="alt">
+Specify the <em><strong>E-Document Service</strong></em> created before.</p>
+<p><img src="images/edoc_image006.png" alt="alt"></p>
+<p>Click <em><strong>OK.</strong></em></p>
+<p>Enable the Workflow.</p>
+<p><img src="images/edoc_image007.png" alt="alt"></p>
+<h3 id="document-sending-profiles">Document Sending Profiles</h3>
+<p>Create a <em><strong>Document Sending Profile</strong></em>. Open the <em><strong>Document Sending Profiles</strong></em> page, click <em><strong>New</strong></em>.</p>
+<p>Fill the <em><strong>Document Sending Profile</strong></em> card:</p>
+<ul>
+<li>Code</li>
+<li>Description</li>
+<li>Electronic Document: Extended E-Document Service Flow</li>
+<li>Electronic Document Service Flow Code: Specify the <em><strong>Workflow</strong></em> created before.</li>
+</ul>
+<p><img src="images/edoc_image008.png" alt="alt"></p>
+<h3 id="customers">Customers</h3>
+<p>For those Customers to whom you want to send <em><strong>E-Document</strong></em> using this <em><strong>E-document Service</strong></em>, specify the appropriate <em><strong>Document Sending Profiles</strong></em> in Customer`s Card field <em><strong>Document Sending Profile</strong></em>.</p>
+<p><img src="images/edoc_image009.png" alt="alt"></p>
+<h2 id="how-to-use">How to use?</h2>
+<h3 id="preconditions">Preconditions</h3>
+<p>The following settings are required for successful creation and sending of E-Documents:</p>
+<ul>
+<li>Company Information: mandatory field <em><strong>Bank Branch No</strong></em>. Enter in this field <em><strong>SWIFT Code</strong></em>.</li>
+<li>Countries/Regions: the <em><strong>ISO Code</strong></em> must be filled in.</li>
+<li>VAT Posting Setup: the <em><strong>Tax Category</strong></em> must be filled in.</li>
+<li>Units of Measure: the <em><strong>International Standard Code</strong></em> must be filled in.</li>
+</ul>
+<p>The following settings in <em><strong>Customers</strong></em> cards must be filled in:</p>
+<ul>
+<li>Registration No.</li>
+<li>Address</li>
+<li>City</li>
+<li>Post Code</li>
+<li>Country/Region Code.</li>
+</ul>
+<h3 id="sending-of-e-documents">Sending of E-Documents</h3>
+<p>Create Sales Order or Sales Invoice as usual. For E-Document purposes, you must fill in the <em><strong>Your Reference</strong></em> field.</p>
+<p>Post the Sales Invoice (or Sales Order). At the same time the E-Document will be sent.</p>
+<p>All sent E-Documents are registered on page <em><strong>E-Documents.</strong></em> Posted Invoice E-Document`s <em><strong>Status</strong></em> can be found under functions: <em><strong>Related</strong></em> --&gt; <em><strong>E-Document</strong></em> --&gt; <em><strong>Open E-Document</strong></em>.</p>
+<h3 id="receiving-of-e-documents">Receiving of E-Documents</h3>
+<p>If you have enabled <em><strong>Auto Import</strong></em> on <em><strong>E-Document Service</strong></em> page, then according to the specified time interval E-Documents will be imported in Dynamics 365 Business Central.</p>
+<p>If <em><strong>Auto Import</strong></em> is not enabled, then use the function <em><strong>Receive</strong></em> on <em><strong>E-Document Service</strong></em> page.</p>
+<p>All sent E-Documents are registered on page <em><strong>E-Documents</strong></em>. If the Supplier and goods and services have been successfully recognized, a Purchase Invoice will be created or a link to the Purchase Invoice will be created according to the settings in the Supplier`s card. The invoice in PDF format will be attached to the Purchase Invoice.</p>
 </article>
           </div>
           
