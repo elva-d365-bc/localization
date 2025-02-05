@@ -121,16 +121,30 @@
 <h3 id="klienti">Klienti</h3>
 <p>Tiem klientiem, kuriem vēlaties nosūtīt e-rēķinus, izmantojot šo pakalpojumu, norādiet atbilstošo <strong>Dokumenta sūtīšanas profilu</strong> Klienta kartītes atbilstošajā laukā.</p>
 <p><img src="images/edoc_image008.png" alt="alt"></p>
+<h3 id="unifiedpost-adresātu-pārbaude">Unifiedpost adresātu pārbaude</h3>
+<p>Atveriet lapu <em><strong>E-dokumentu pakalpojumi</strong></em>, izvēlieties pakalpojumu, kas nodrošina integrāciju ar Unifiedpost, spiediet <em><strong>Pakalpojuma integrācijas uzstādījumi</strong></em>, sadaļā Adresāta pārbaude norādiet:</p>
+<ul>
+<li>Noklusējuma dokumentu sūtīšanas profils - norādiet dokumentu sūtīšanas profilu, kas paredz sūtīšanu ar Unifiedpost</li>
+<li>API URL UnifiedPost saņēmēja pārbaudei</li>
+</ul>
+<p><img src="images/edoc_image011.png" alt="alt"></p>
+<p>Ja vēlaties, lai adresātu pārbaude notiktu automātiski, piemēram, reizi naktī, uzstādiet Procesu rindu. Atveriet lapu <em><strong>Procesa rindas ieraksti</strong></em>, spiediet <em><strong>+Jauns</strong></em> un aizpildiet:</p>
+<ul>
+<li>Izpildāmais objekta tips - Atskaite</li>
+<li>Izpildāmais objekta ID - 70151540</li>
+</ul>
+<p>Aizpildiet cilni Periodiskums un iestatiet statusu Gatavs.</p>
+<p><img src="images/edoc_image009.png" alt="alt"></p>
 <h2 id="kā-lietot">Kā lietot?</h2>
 <h3 id="priekšnosacījumi">Priekšnosacījumi</h3>
 <p>Veiksmīgai e-rēķinu sagatavošanai un nosūtīšanai nepieciešami šādi uzstādījumi:</p>
 <ul>
 <li>Uzņēmuma informācija - jābūt aizpildītam laukam Bankas nodaļas kods, ievadiet šajā laukā bankas SWIFT kodu</li>
-<li>Valstis - jābūt aizpildītam laukam ISO kods</li>
+<li>Valstis - jābūt aizpildītam laukam ISO kods un PVN shēma</li>
 <li>PVN kontējuma uzstādījumi - jābūt aizpildītam laukam Nodokļu kategorija</li>
 <li>Mērvienības - jābūt aizpildītam laukam Starptautiskā standarta kods</li>
 </ul>
-<p>Klientu kartiņās jābūt aizpildītiem laukiem:</p>
+<p>Klientu kartītēs jābūt aizpildītiem laukiem:</p>
 <ul>
 <li>Reģistrācijas Nr.</li>
 <li>Adrese</li>
@@ -148,6 +162,11 @@ arī no iegrāmatotā rēķina <em><strong>Saistītās - E-dokuments - Atvērt E
 <p>Ja automātiskā importēšana nav uzstādīta, e-rēķinus var saņemt nospiežot pogu <em><strong>Saņemt</strong></em> E-dokumentu pakalpojuma kartītē.</p>
 <p>Katram E-rēķinam tiek izveidots ieraksts tabulā <em><strong>E-dokumenti</strong></em>. Ja veiksmīgi notikusi piegādātāja un preču un pakalpojumu atpazīšana, būs izveidots iepirkuma rēķins vai izveidota sasaiste ar iepirkuma pasūtījumu atbilstoši uzstādījumiem piegādātāja kartītē.</p>
 <p>Iepirkuma dokumenta pielikumā būs pievienots rēķins PDF formātā.</p>
+<h3 id="unifiedpost-adresātu-pārbaude-1">Unifiedpost adresātu pārbaude</h3>
+<p>Lai pārbaudītu, vai klients ir gatavs saņemt e-rēķinus, izmantojot Unifiedpost pakalpojumus, klienta kartītē spiediet <em><strong>Darbības - Unifiedpost adresāta pārbaude</strong></em> Ja klients tiks atrasts Unifiedpost E-rēķinu saņēmēju sarakstā, klienta kartītē laukā <strong>Dokumenta sūtīšanas profils</strong> tiks norādīts Unifiedpost profils.</p>
+<p><img src="images/edoc_image010.png" alt="alt"></p>
+<p>Lai pārbaudītu visus vai vairākus klientus, izmantojiet <em><strong>Darbības - Unifiedpost adresāta pārbaude</strong></em> funkciju klientu sarakstā bez filtriem vai norādot nepieciešamos filtrus. Lai nodrošinātu klientu pārbaudi, klientiem jābūt aizpildītam valsts kodam un reģistrācijas numuram. Netiek pārbaudīti klienti, kuriem laukā <strong>Bloķēts</strong> ir norādīts Viss.</p>
+<p>Ja ir uzstādīta procesu rinda adresātu pārbaudei, tā notiks automātiski ar procesa rindai norādīto periodiskumu.</p>
 </article>
           </div>
           

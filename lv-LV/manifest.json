@@ -3780,7 +3780,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/e_document/e_document.html",
-          "hash": "O6+lg5DKVVYyfvSXLFoDjkAT3nV/vJLLHLSOfQLwAM8="
+          "hash": "BtMOC1RdjGNbKt0ytbMWrkr0WSqtITzfxwSyOgFQsIE="
         }
       },
       "is_incremental": false,
@@ -3881,6 +3881,39 @@
       "output": {
         "resource": {
           "relative_path": "articles/e_document/images/edoc_image008.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/e_document/images/edoc_image009.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/e_document/images/edoc_image009.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/e_document/images/edoc_image010.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/e_document/images/edoc_image010.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/e_document/images/edoc_image011.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/e_document/images/edoc_image011.png"
         }
       },
       "is_incremental": false,
