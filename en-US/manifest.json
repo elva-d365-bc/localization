@@ -3412,7 +3412,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/e_document/e_document.html",
-          "hash": "Eh85x4j90yU9xUTujPF/GMp0bFs36NbRrTwlwRaKzpo="
+          "hash": "lrrqP50Fo+P49tk43Znvplt4Y8itgClrU6kxQvJ1GCo="
         }
       },
       "is_incremental": false,
@@ -3524,6 +3524,28 @@
       "output": {
         "resource": {
           "relative_path": "articles/e_document/images/edoc_image009.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/e_document/images/edoc_image010.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/e_document/images/edoc_image010.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/e_document/images/edoc_image011.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/e_document/images/edoc_image011.png"
         }
       },
       "is_incremental": false,
