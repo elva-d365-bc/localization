@@ -173,7 +173,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/base_and_invoices.html",
-          "hash": "IXnYrb0a8xIhmmYvI7Pr2wocjF08lkMWHc6HjxSbBKM="
+          "hash": "tvmGouwFISqQR8RbunkBB4V2a+rfkn4csgL3ubiOS9g="
         }
       },
       "is_incremental": false,
@@ -186,6 +186,94 @@
         ".html": {
           "relative_path": "articles/base_and_invoices/faq.html",
           "hash": "w50Khn7sc0iFNIgw3oDNvdoJk/PvojRey3TYZClCr9w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/AvNorAtsk1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/AvNorAtsk1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/AvNorAtsk2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/AvNorAtsk2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/AvNorAtsk3.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/AvNorAtsk3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/AvNorAtsk4.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/AvNorAtsk4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/AvNorAtsk5.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/AvNorAtsk5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/AvNorAtsk6.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/AvNorAtsk6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/AvNorAtsk7.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/AvNorAtsk7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/AvNorAtsk8.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/AvNorAtsk8.png"
         }
       },
       "is_incremental": false,

@@ -310,12 +310,21 @@ Lai identificētu avansa norēķinus, veiciet sekojošus soļus:</p>
 </ol>
 <p><img src="images/Setup_016.png" alt="alt"></p>
 <ol start="3">
-<li>Pārliecinieties, ka attiecīgās avansa norēķinu personas kartītē Piegādātāja kontējuma grupā ir iestatīta vērtība AVNOR</li>
-</ol>
-<p><img src="images/Setup_017.png" alt="alt"></p>
-<ol start="4">
-<li>Lai Pirkšanas rēķinā un Pirkšanas Kredītrēķinā aktivizētu Grāmatojuma apraksta lauku, izmantojiet Personalizāciju.
- </li>
+<li><p>Pārliecinieties, ka attiecīgās avansa norēķinu personas kartītē Piegādātāja kontējuma grupā ir iestatīta vērtība AVNOR
+<img src="images/Setup_017.png" alt="alt"></p>
+</li>
+<li><p>Lai Pirkšanas rēķinā un Pirkšanas Kredītrēķinā aktivizētu Grāmatojuma apraksta lauku, izmantojiet Personalizāciju.</p>
+</li>
+<li><p>Ja nepieciešams izmantot vairākas kontējuma grupas, piemēram, lai grāmatotu avansa norēķinus atsevišķi no komandējuma izdevumiem, ir jāveic izmaiņas iestatījumos.</p>
+<p>5.1. <em>Iepirkumu un maksāj. uzstād.</em>, aktivizējot izvēlni <em>Atļaut vairākas kontējuma grupas</em>.
+<img src="images/AvNorAtsk1.png" alt="alt"></p>
+<p>5.2. <em>Piegādātāju kontējuma grupas</em> jāizveido trūkstošās <em>Piegādātāju kontējuma grupas</em>, kā arī jāņem vērā, ka katrai <em>Piegādātāju kontējuma grupai</em> ir atšķirīgs <em>Piegādātāja atlikuma konts</em> (jāpapildina <em>Kontu plāns</em>).
+<img src="images/AvNorAtsk2.png" alt="alt"></p>
+<p>5.3. Jāpiesaista alternatīvās kontējuma grupas katrai avansa norēķina grupai. <em>Saistītās -&gt; Kontējuma grupa -&gt; Aletrnatīvās grupas</em>.
+<img src="images/AvNorAtsk3.png" alt="alt">
+<img src="images/AvNorAtsk4.png" alt="alt">
+ </p>
+</li>
 </ol>
 <h1 id="kā-lietot">Kā lietot</h1>
 <h2 id="kā-pielietot-pārvadātājus-dokumentos">Kā pielietot: Pārvadātājus dokumentos</h2>
@@ -567,15 +576,16 @@ Drukāšanas poga Pārvietošanas pavadzīmei atrodas rīkjoslas sadaļā Darbī
 <img src="images/To_049.png" alt="alt"></li>
 </ul>
 <h2 id="kā-lietot-avansa-norēķini">Kā lietot: Avansa norēķini</h2>
-<p><strong>Mērķis</strong>:  Avansa norēķinu persona ir uzņēmuma darbinieks, kurš ir atbildīgs par izdevumu summu, kuru nodrošina uzņēmums. Avansu norēķinu personas sistēmā ir piereģistrējami kā piegādātāji ar attiecīgu Piegādātāju kontējumu grupu.
-Avansa norēķinu darījumu grāmatošana. Avansa norēķina transakcijas ir uzskatāmas par  iepirkumu darījumiem, ko veikuši darbinieki, un ir klasificējamas kā uzņēmuma izmaksas. Kad tiek veikts iepirkums, avansu norēķinu persona ziņo uzņēmumam par veiktajiem izdevumiem.
-Avansa norēķini var tikt reģistrēti divos veidos:</p>
+<p><strong>Mērķis</strong>:  Avansa norēķinu persona ir uzņēmuma darbinieks, kurš ir atbildīgs par izdevumu summu, kuru nodrošina uzņēmums. Avansu norēķinu personas sistēmā ir piereģistrējami kā piegādātāji ar attiecīgu <em>Piegādātāju kontējumu grupu</em>.</p>
+<p><strong>Avansa norēķinu darījumu grāmatošana</strong>: Avansa norēķina transakcijas ir uzskatāmas par  iepirkumu darījumiem, ko veikuši darbinieki, un ir klasificējamas kā uzņēmuma izmaksas. Kad tiek veikts iepirkums, avansu norēķinu persona ziņo uzņēmumam par veiktajiem izdevumiem.</p>
+<p>Avansa norēķini var tikt reģistrēti divos veidos:</p>
 <ol>
 <li><p>Gadījumā, ja visi piegādātāji, no kuriem avansu norēķina persona veic iepirkumu, ir ievadīti Business Central kā piegādātāji, tad par katru avansa norēķina personas transakciju tiek sagatavots pirkuma dokuments - iepirkuma rēķins vai iepirkuma kredītrēķins. Šajā dokumentā pārdevējs ir uzņēmums, no kā tika iegādātas preces/ pakalpojumi, bet apmaksas nosacījumos jānorāda cits piegādātājs, kuram jāsaņem samaksa - Avansa norēķinu persona. Grāmatošanas apraksta laukā jāievada skaidrojums par darījuma būtību.
-<img src="images/To_050.png" alt="alt"></p>
+Ja nepieciešams izmantot atšķirīgas <em>Piegādātāju kontējuma grupa</em>, tad izvēlas attiecīgo.
+<img src="images/AvNorAtsk5.png" alt="alt"></p>
 </li>
-<li><p>Gadījumā, ja piegādātājs, no kura avansu norēķinu persona veica iepirkumu, nav ievadīta Business Central kā piegādātājs, tad katrai avansa norēķinu personas transakcijai jāveido rindiņa maksājumu žurnālā (pirkuma rēķins, iepirkuma kredītrēķins). Apraksta laukā ir jāieraksta preces/pakalpojuma pārdevēja nosaukums un darījuma būtības apraksts.
-<img src="images/To_051.png" alt="alt"></p>
+<li><p>Gadījumā, ja piegādātājs, no kura avansu norēķinu persona veica iepirkumu, nav ievadīta Business Central kā piegādātājs, tad katrai avansa norēķinu personas transakcijai jāveido rindiņa iepirkuma žurnālā (pirkuma rēķins, iepirkuma kredītrēķins). Apraksta laukā ir jāieraksta preces/pakalpojuma pārdevēja nosaukums un darījuma būtības apraksts.
+<img src="images/AvNorAtsk6.png" alt="alt"></p>
 </li>
 </ol>
 <h3 id="avansa-norēķinu-atskaites-sagatavošana">Avansa norēķinu atskaites sagatavošana</h3>
@@ -593,12 +603,13 @@ Lai varētu izmantot funkcionalitāti, jāveic sekojoši soļi:</p>
 <p><img src="images/To_053.png" alt="alt"></p>
 <p><strong>Drukāšanas opcijas</strong>: šai funkcionalitātei ir pieejamas sekojošas drukāšanas opcijas:</p>
 <ul>
-<li>•	Avansa norēķina Nr. – norāda numuru izdrukai uz avansa norēķina atskaites. Ja numurs šeit netiek norādīts, tiks izdrukāta svītriņa, kur varēs numuru uzrakstīt ar roku.</li>
-<li>Piegādātāja Nr. – jānorāda piegādātāja – avansa norēķina personas numurs, kurai sagatavo atskaiti</li>
-<li>Datuma filtrs – norādiet atskaites pārskata periodu
-<img src="images/To_054.png" alt="alt">
-<img src="images/To_055.png" alt="alt"></li>
+<li>Avansa norēķina Nr. – norāda numuru izdrukai uz avansa norēķina atskaites. Ja numurs šeit netiek norādīts, tiks izdrukāta svītriņa, kur varēs numuru uzrakstīt ar roku.</li>
+<li>Piegādātāja Nr. – jānorāda piegādātāja – avansa norēķina personas numurs, kurai sagatavo atskaiti.</li>
+<li>Piegādātāju kontējuma grupas kods - jānorāda <em>Piegādātāja kontējuma grupa</em>, ja tiek dalītas izmaksas, piemēram, avansa norēķini un komandējuma izmaksas. Ja nevēlas izdalīt, tad atstāj neaizpildītu.</li>
+<li>Datuma filtrs – norādiet atskaites pārskata periodu</li>
 </ul>
+<p><img src="images/AvNorAtsk7.png" alt="alt">
+<img src="images/AvNorAtsk8.png" alt="alt"></p>
 <h3 id="salīdzināšanās-akts---klienti">Salīdzināšanās akts - klienti</h3>
 <p><strong>Mērķis</strong>:  paredzēta regulārai debitoru parādu saskaņošanai ar uzņēmuma klientiem.</p>
 <p><strong>Piekļuve</strong>: atskaitei var piekļūt ievadot tās nosaukumu sistēmas meklētājā Meklēt lapu vai atskaiti …</p>
