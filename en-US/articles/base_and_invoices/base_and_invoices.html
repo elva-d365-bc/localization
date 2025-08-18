@@ -317,9 +317,19 @@ In order to setup advance holders proceed with following steps:</p>
 </ol>
 <p><img src="images/Setup_017.png" alt="alt"></p>
 <ol start="4">
-<li>Use Personalization in order to make the field Posting Description available in Purchase Invoice, Purchase Credit Memo
- </li>
+<li><p>Use Personalization in order to make the field Posting Description available in Purchase Invoice, Purchase Credit Memo</p>
+</li>
+<li><p>If you need to use multiple posting groups, for example, to post advance payments separately from business trip expenses, you need to make changes to the settings.</p>
+<p>5.1. <em>Purchases &amp; Payables Setup</em> activate <em>Allow Multiple Posting Groups</em> option.
+<img src="images/AdvReport1.png" alt="alt">
+5.2. <em>Vendor Posting Groups</em> create the missing <em>Vendor Posting Group</em>, and also take into account that each <em>Vendor Posting Group</em> has a different <em>Payables Account</em> (should be added to the <em>Chart of Accounts</em>).
+<img src="images/AdvReport2.png" alt="alt">
+5.3. Alternative posting groups should be linked to each Advance Vendor posting group. <em>Related -&gt; Posting group -&gt; Alternative groups</em>.
+<img src="images/AdvReport3.png" alt="alt">
+<img src="images/AdvReport4.png" alt="alt"></p>
+</li>
 </ol>
+<p> </p>
 <h1 id="how-to-use">How to use</h1>
 <h2 id="how-to-use-transporters-in-documents">How to use: Transporters in Documents</h2>
 <p>Transporter functionality ensures record keeping for list of transporters with their further use in shipment documents. It is possible to enter own vehicles and drivers, as well as external vehicles, drivers, mentioning the transporting company.
@@ -564,15 +574,17 @@ LV Sales Prepayment Invoice should be printed before posting Prepayment Invoice.
 <p><img src="images/To_048.png" alt="alt"></p>
 <p><img src="images/To_049.png" alt="alt"></p>
 <h2 id="how-to-use-advance-holders">How to use: Advance holders</h2>
-<p><strong>Purpose</strong>:  An advance holder is an employee of a company who is accountable for an expense amount that is provided by the organization. Advance holders are created as Vendors with particular Vendor Posting Group.
-Post Advance Holder Transactions. Advance holder transactions are the procurements made by the Employee, that are considered as company expenses. When a procurement happens, an advance holder reports to the company about the expenditures that were made.</p>
+<p><strong>Purpose</strong>:  An advance holder is an employee of a company who is accountable for an expense amount that is provided by the organization. Advance holders are created as Vendors with particular <em>Vendor Posting Group</em>.</p>
+<p><strong>Post Advance Holder Transactions</strong>. Advance holder transactions are the procurements made by the Employee, that are considered as company expenses. When a procurement happens, an advance holder reports to the company about the expenditures that were made.</p>
 <p>Advance holder transactions can be recorded in 2 ways:</p>
 <ol>
-<li>In case all Vendors, from which an advance holder made procurements, are entered in Business Central as Vendors, then per each advance holder transaction a purchase document (purchase invoice, purchase credit memo) is created. Buy-From Vendor is the original Vendor who provided goods or services, whereas Pay-To Vendor is set as Advance Holder. Posting Description field needs to be completed with information describing the deal.</li>
-</ol>
-<p><img src="images/To_050.png" alt="alt"></p>
-<ol start="2">
-<li>In case Vendors, from which an advance holder made procurements, are NOT entered in Business Central as Vendors, then per each advance holder transaction a purchase journal entry (purchase invoice, purchase credit memo) is created. Description field needs to be completed with information with original vendor data and information describing the deal.</li>
+<li><p>In case all Vendors, from which an advance holder made procurements, are entered in Business Central as Vendors, then per each advance holder transaction a purchase document (purchase invoice, purchase credit memo) is created. Buy-From Vendor is the original Vendor who provided goods or services, whereas Pay-To Vendor is set as Advance Holder. Posting Description field needs to be completed with information describing the deal.
+If it is necessary to use a different <em>Vendor posting group</em>, then select the appropriate one.
+<img src="images/AdvReport5.png" alt="alt"></p>
+</li>
+<li><p>In case Vendors, from which an advance holder made procurements, are NOT entered in Business Central as Vendors, then per each advance holder transaction a purchase journal entry (purchase invoice, purchase credit memo) is created. Description field needs to be completed with information with original vendor data and information describing the deal.
+<img src="images/AdvReport6.png" alt="alt"></p>
+</li>
 </ol>
 <h3 id="prepare-advance-statement-report">Prepare Advance Statement Report</h3>
 <p><strong>Purpose</strong>:  The company reimburses the employee for the expense amount and controls a balance for each advance holder.</p>
@@ -589,12 +601,13 @@ In order to use the functionality, the following steps are required:</p>
 <p><img src="images/To_053.png" alt="alt"></p>
 <p><strong>Printing Options</strong>: the following printing options are available for this printout:</p>
 <ul>
-<li>Advance statement No. – enter advance statement number that will appear on the report printout</li>
-<li>Vendor No. – select one particular advance holder from the list of vendors</li>
-<li>Date Filter – set date filter for advance statement period</li>
+<li>Advance statement No. – enter advance statement number that will appear on the report printout.</li>
+<li>Vendor No. – select one particular advance holder from the list of vendors.</li>
+<li>Vendor Post. Group Code - <em>Vendor Posting Group</em> should be specified if costs are shared, such as advance payments and business trip costs. If you do not want to share, then leave it blank.</li>
+<li>Date Filter – set date filter for advance statement period.
+<img src="images/AdvReport7.png" alt="alt">
+<img src="images/AdvReport8.png" alt="alt"></li>
 </ul>
-<p><img src="images/To_054.png" alt="alt"></p>
-<p><img src="images/To_055.png" alt="alt"></p>
 <h3 id="customer-balance-reconciliation-statement">Customer Balance Reconciliation Statement</h3>
 <p><strong>Purpose</strong>:  Company may reconcile balances with its customers on regular basis.</p>
 <p><strong>Availability</strong>: can be accessed from Search for Page or Report…</p>

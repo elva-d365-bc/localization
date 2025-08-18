@@ -206,7 +206,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/base_and_invoices.html",
-          "hash": "ZlC33jTsSzsZkUeILMeAWRnvOdnSk/plecHhe1u/MYo="
+          "hash": "wFbOUGXHWnW11UgkDUje0Jnu28WqlEdiOe4DZnR3MdU="
         }
       },
       "is_incremental": false,
@@ -222,6 +222,94 @@
         ".html": {
           "relative_path": "articles/base_and_invoices/faq.html",
           "hash": "vBP4ANvqs1sfGL6ZnuA4NWksAz0YuQ97HAHF7vSdVXU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/AdvReport1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/AdvReport1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/AdvReport2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/AdvReport2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/AdvReport3.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/AdvReport3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/AdvReport4.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/AdvReport4.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/AdvReport5.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/AdvReport5.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/AdvReport6.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/AdvReport6.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/AdvReport7.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/AdvReport7.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/AdvReport8.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/AdvReport8.png"
         }
       },
       "is_incremental": false,
