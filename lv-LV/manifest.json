@@ -3946,10 +3946,21 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/e_document/images/edoc_image004.png",
+      "source_relative_path": "articles/e_document/images/edoc_image004_telema.png",
       "output": {
         "resource": {
-          "relative_path": "articles/e_document/images/edoc_image004.png"
+          "relative_path": "articles/e_document/images/edoc_image004_telema.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/e_document/images/edoc_image004_unifiedpost.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/e_document/images/edoc_image004_unifiedpost.png"
         }
       },
       "is_incremental": false,
@@ -4127,7 +4138,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/e_document/telema.html",
-          "hash": "3UmI/6/bgJIdV/XhVy1HJpDORU8/JtzutWTH3kafBv0="
+          "hash": "Glupj6emP7T95rb7yRvWUNssei0RHX4/Kvzd49IkElY="
         }
       },
       "is_incremental": false,
@@ -4151,7 +4162,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/e_document/unifiedpost.html",
-          "hash": "s1D/iFGKZ4oQDyyrSc8DsHmfe4AaSbqyDMpvZkC/9sU="
+          "hash": "AEUP+TAcLsJzlUSBvQkZzHLpVLIS3EdoUxZMMD9qeqk="
         }
       },
       "is_incremental": false,
