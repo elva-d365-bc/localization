@@ -173,7 +173,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/base_and_invoices.html",
-          "hash": "tvmGouwFISqQR8RbunkBB4V2a+rfkn4csgL3ubiOS9g="
+          "hash": "82gg/sFwMDnOonKKAHvfW+9YO4hqarExSHIY9UMrIoY="
         }
       },
       "is_incremental": false,
@@ -2689,12 +2689,89 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/pm_01.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/pm_01.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/pm_02.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/pm_02.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/pm_03.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/pm_03.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/pm_04.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/pm_04.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/pm_05.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/pm_05.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/pm_06.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/pm_06.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/base_and_invoices/images/pm_07.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/base_and_invoices/images/pm_07.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/base_and_invoices/overview.md",
       "output": {
         ".html": {
           "relative_path": "articles/base_and_invoices/overview.html",
-          "hash": "vi+m5frZhrSEgGQpNUCHT47P+49nc1KnuiHY3kEZe0s="
+          "hash": "he9TfOYUH3WDOZu47hDC9YbMoIoZas51h+OQB3PMFKU="
         }
       },
       "is_incremental": false,

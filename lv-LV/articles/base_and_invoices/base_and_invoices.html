@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Get Started | Latvian Localization </title>
+    <title>S&#257;kam lietot | Latvian Localization </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Get Started | Latvian Localization ">
+    <meta name="title" content="S&#257;kam lietot | Latvian Localization ">
     <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../../favicon.ico">
@@ -77,7 +77,7 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="get-started">Get Started</h1>
+<h1 id="sākam-lietot">Sākam lietot</h1>
 
 <h2 id="lomu-centrs">Lomu Centrs</h2>
 <p>Lai lietotu Latvian Base Localization, nav nepieciešami specifiski lomu centri, jo funkcionalitāte ir pieejama izmantojot Meklēšana pogu, un izdruku pogas ir iestrādātas funkciju lentē zem tabulas DARBĪBAS.</p>
@@ -240,6 +240,34 @@ Lai korekti varētu eksportēt maksājumu failus un importēt bankas pārskatu f
 <li>Bankas izraksta importa formāts- LV_SEPA_IMPORT</li>
 </ul>
 <p><img src="images/Setup_007.png" alt="alt"></p>
+<h2 id="maksājuma-ziņojums">Maksājuma ziņojums</h2>
+<p>Payment Message ir pielāgojums, kurš automatizē Ziņojuma saņēmējam aizpildīšanu Maksājuma žurnālā arī gadījumos, kad maksājums attiecināts pret vairāk kā vienu dokumentu.</p>
+<h2 id="apraksts">Apraksts</h2>
+<p>Funkcija apstrādās lietotāja atfiltrētos ierakstus, kam Konta tips ir Piegādātājs, un aizpildīs lauku <strong>Ziņojums saņēmējam</strong> ar tekstu <strong>Rēķ. A, B, C</strong>, kur A, B, C attiecināto Piegādātāju grāmatas ierakstu Ārējais dokumenta Nr. Ieraksti, kas nebūs attiecināti, tiks izlaisti.</p>
+<p>Ja Ziņojums saņēmējam pārsniegs maksimālo lauka garumu (140 zīmes), tas tiks nogriezts.</p>
+<p>Maksājuma žurnāla ierakstiem tiks kontrolēta vērtība laukā <strong>Eksportēts uz maksājuma failu</strong>. Ja vērtība būs Jā, tiks parādīts brīdinājums. Ja būs vairākas rindas ar šādu atzīmi, tiks parādīts viens brīdinājums. Ja lietotājs to apstiprinās, lauks Ziņojums saņēmējam tiks aizpildīts kā aprakstīts iepriekš. Ja nē – laukā tiks atstāta esošā vērtība.</p>
+<h2 id="ieguvumi">Ieguvumi</h2>
+<p>Automātiski aizpildot lauku Ziņojums saņēmējam ar attiecināto piegādātāju grāmatas ierakstu Ārējo dokumentu Nr., tiek samazināts maksājumu uzdevumu sagatavošanai nepieciešamais laiks un samazināta kļūdu iespēja, manuāli norādot nekorektus dokumentus.</p>
+<h2 id="pieņēmumi-un-ierobežojumi">Pieņēmumi un ierobežojumi</h2>
+<p>Tiks apstrādāti tikai piegādātāju grāmatas ieraksti, maksājumiem klientiem un darbiniekiem Ziņojums saņēmējam jāaizpilda manuāli.</p>
+<h2 id="kā-atrast">Kā atrast</h2>
+<p>Funkcija <strong>Izveidot maksājuma ziņojumu LV</strong> pieejama lapā <strong>Maksājumu žurnāls</strong> zem <strong>Sagatavot</strong>
+<img src="images/pm_01.png" alt="alt"></p>
+<h2 id="iestatījumi-1">Iestatījumi</h2>
+<p>Iepirkumu un maksājumu uzstādījumos sadaļā <strong>Maksājumu ziņojums</strong> var nodefinēt Maksājuma ziņojuma prefiksa veidu:
+<img src="images/pm_02.png" alt="alt"></p>
+<ul>
+<li>Standarts - pirms dokumenta numura tiek pievienots &quot;Rēķ.&quot; vai &quot;Inv.&quot; atkarībā no lietotāja interfeisa valodas.
+<img src="images/pm_03.png" alt="alt"></li>
+<li>Pielāgots - lietotājs var norādīt savu tekstu
+<img src="images/pm_04.png" alt="alt">
+<img src="images/pm_05.png" alt="alt"></li>
+<li>Nav - prefikss netiek pievienots
+<img src="images/pm_06.png" alt="alt"></li>
+</ul>
+<h2 id="kā-lietot">Kā lietot</h2>
+<p>Jāsagatavo maksājumu ziņojumi un jāpalaiž funkcija <strong>Izveidot maksājuma ziņojumu LV</strong>.
+<img src="images/pm_07.png" alt="alt"></p>
 <h2 id="ārējā-maksājuma-kodi">Ārējā maksājuma kodi</h2>
 <p>Attiecinot LV.LVI.STANDARD konfigurācijas pakotni, ir jāizveido biežāk lietoto ienākošo ārējo maksājumu kodu saraksts, kuru nekavējoties var uzsākt lietot:</p>
 <ol>
@@ -326,7 +354,7 @@ Lai identificētu avansa norēķinus, veiciet sekojošus soļus:</p>
  </p>
 </li>
 </ol>
-<h1 id="kā-lietot">Kā lietot</h1>
+<h1 id="kā-lietot-1">Kā lietot</h1>
 <h2 id="kā-pielietot-pārvadātājus-dokumentos">Kā pielietot: Pārvadātājus dokumentos</h2>
 <p>Pārvadātāju funkcionalitāte nodrošina pārvadātāju kataloga uzturēšanu un tālāku to izmantošanu kravas pārvadājuma dokumentos. Pārvadātāju sarakstā iespējams ievadīt gan pašu uzņēmuma transporta vienības un to vadītājus, gan citu uzņēmumu nodrošināto transportu. Informācija par pārvadātājiem tiek saglabāta iegrāmatotajos dokumentos.
 Pārvadātājus iespējams norādīt Piegādes sadaļā sekojošos dokumentos:</p>
