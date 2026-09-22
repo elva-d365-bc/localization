@@ -3968,6 +3968,28 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "articles/e_document/images/edoc_document_sending_profile.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/e_document/images/edoc_document_sending_profile.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/e_document/images/edoc_edocument_service.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/e_document/images/edoc_edocument_service.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "articles/e_document/images/edoc_image001.png",
       "output": {
         "resource": {
@@ -4198,12 +4220,35 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "articles/e_document/images/edoc_peppol_30_setup.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/e_document/images/edoc_peppol_30_setup.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/e_document/overview.md",
       "output": {
         ".html": {
           "relative_path": "articles/e_document/overview.html",
           "hash": "Jga1AV3T168nj2b7SOnNsKGCqkGmdZaZmIaiBBfoFOg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/e_document/peppol.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/e_document/peppol.html",
+          "hash": "yekAtANLpEbYwE1B6vEAL0qYID9RomFKmkVglRf+01I="
         }
       },
       "is_incremental": false,
@@ -4227,7 +4272,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/e_document/toc.html",
-          "hash": "MxnDwhkh1KJVWo2MV0u5Q5c0x08hsPPE++fIqypC/Mg="
+          "hash": "oqGqzVOPFEmnA+Y1CiROcnbKq81gCtNZSiH2uAm7VXY="
         }
       },
       "is_incremental": false,
@@ -6639,7 +6684,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 34,
+          "total_file_count": 35,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

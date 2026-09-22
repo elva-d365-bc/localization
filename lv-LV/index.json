@@ -54,6 +54,11 @@
     "title": "Pārskats | Latvian Localization",
     "keywords": "Pārskats Latvian E-Document Localization ir biznesa programmatūras risinājums, kas izstrādāts ELVA priekš uzņēmumiem, kas nodarbojas ar uzņēmējdarbību Latvijas Republikas teritorijā un izmanto E-Dokumentus. Latvian E-Document Localization ir pilnībā integrēta ar Dynamics 365 Business Central, paplašinot funkcionalitāti un pielāgojoties vietējo normatīvo aktu un uzņēmējdarbības prasībām. Risinājums nodrošina e-rēķinu nosūtīšanu un saņemšanu, izmantojot šādu e-rēķinu operatoru pakalpojumus: Unifiedpost Telema"
   },
+  "articles/e_document/peppol.html": {
+    "href": "articles/e_document/peppol.html",
+    "title": "Instrukcija | Latvian Localization",
+    "keywords": "Instrukcija Uzstādījumi E-Dokumentu pakalpojumi Atveriet E-Dokumentu pakalpojumi lapu, izvēlieties Jauns vai rediģējiet esošo pakalpojumu. Aizpildiet E-Dokumentu pakalpojumi karti: Kods Apraksts Dokumenta formāts: PEPPOL BIS 3.0 (Latvija) Pakalpojumu integrācija: izvēlieties E-dokumentu operatorus, kuru pakalpojumus izmantosiet. Ekrānā tiks parādīts pieprasījums pārskatīt noteikumus un nosacījumus, izlasiet tos un noklikšķiniet Es piekrītu . Dokumentu sūtīšanas profili Atveriet Dokumentu sūtīšanas profili lapu. Slīdnis: ieslēdziet slīdni, lai iespējotu Pielietojiet Latvijas PEPPOL noteikumus . PEPPOL 3.0 iestatīšana Atveriet PEPPOL 3.0 iestatīšana lapu. Aizpildiet PEPPOL 3.0 iestatīšana karti: PEPPOL 3.0 Pārdošanas formāts: izvēlieties PEPPOL BIS 3.0 - Pārdošana (Latvija) ."
+  },
   "articles/e_document/telema.html": {
     "href": "articles/e_document/telema.html",
     "title": "Instrukcija | Latvian Localization",
