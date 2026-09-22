@@ -54,6 +54,11 @@
     "title": "Overview | Latvian Localization",
     "keywords": "Overview Latvian E-Document Localization is a business software solution developed by Elva Baltic for companies that carry out business transactions in Republic of Latvia and use E-Documents. Latvian E-Document Localization is fully integrated with Dynamics 365 Business Central by extending its functionality and tailoring it to meet the requirements of local legislation and local business requirements. The application enables sending and receiving e-invoices using the services of the following e-invoice operators: Unifiedpost Telema"
   },
+  "articles/e_document/peppol.html": {
+    "href": "articles/e_document/peppol.html",
+    "title": "Help | Latvian Localization",
+    "keywords": "Help Settings E-Document Services Open the E-Document Services page, select New , or edit an existing service. Fill the E-Document Services card: Code Description Document Format: PEPPOL BIS 3.0 (Latvia) Service Integration: select the E-document Operator whose services you will use. A request to review the terms and conditions will appear on the screen, read them and click I accept . Document Sending Profiles Open the Document Sending Profiles page. Slider: turn on the slider to enable Use Latvian PEPPOL Rules . PEPPOL 3.0 Setup Open the PEPPOL 3.0 Setup page. Fill the PEPPOL 3.0 Setup card: PEPPOL 3.0 Sales Format select PEPPOL BIS 3.0 - Sales (Latvia) ."
+  },
   "articles/e_document/telema.html": {
     "href": "articles/e_document/telema.html",
     "title": "Help | Latvian Localization",
